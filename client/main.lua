@@ -1653,7 +1653,7 @@ end
 
 if Config.CancelEmoteKey ~= '' then
     keybinds.CancelKey = lib.addKeybind({
-        name = 'ecancel',
+        name = 'mri_Qbox-ecancel',
         description = lang.cancel_your_emote,
         defaultKey = Config.CancelEmoteKey,
         onPressed = function()
@@ -1692,7 +1692,7 @@ end
 
 if Config.HandsUpKey ~= '' then
     keybinds.HandsUp = lib.addKeybind({
-        name = 'handsup',
+        name = 'mri_Qbox-handsup',
         description = lang.hands_up,
         defaultKey = Config.HandsUpKey,
         onPressed = function()

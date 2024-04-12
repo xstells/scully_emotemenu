@@ -1,6 +1,6 @@
 Config = {
     -- You can change the language of the menu here. Available languages can be found in the locales folder.
-    Language = 'en',
+    Language = 'pt-br',
     -- You can disable the search option here.
     EnableSearch = true,
     -- You can disable prop dumps here.
@@ -16,11 +16,11 @@ Config = {
     -- Block players from aiming and shooting while doing an emote.
     EnableAimShootBlock = true,
     -- Set this to '' to disable the key.
-    CancelEmoteKey = 'x', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+    CancelEmoteKey = 'F6', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- Set this to '' to disable the key.
-    HandsUpKey = 'h', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+    HandsUpKey = 'X', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- Set this to '' to disable the key.
-    StanceKey = 'c', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+    StanceKey = '', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- Set this to '' to disable the key.
     PointKey = 'b', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- Set this if you really wanna disable emotes in vehicles, if enabled they only play the upper body part of the emote.
@@ -34,7 +34,7 @@ Config = {
     -- Commands to open the menu.
     MenuOpenCommands = {'em', 'emotemenu'},
     -- Set this to '' to disable the key.
-    MenuKeybind = 'f5', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+    MenuKeybind = 'F5', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- You can change the menu position here.
     MenuPosition = 'top-right', -- (top-left, top-right, bottom-left, bottom-right)
     -- You can change the notification position here
@@ -42,23 +42,23 @@ Config = {
     -- You can change the help alert position here
     HelpAlertPosition = 'right-center', -- (right-center, left-center, top-center)
     -- Set this to '' to disable the key.
-    RagdollKeybind = 'u', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+    RagdollKeybind = '', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- Set this to '' to disable the key.
     PtfxKeybind = 'g', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- You can enable automated ptfx on emotes with the Auto flag here. 
     EnableAutoPtfx = false,
     -- You can enable the NSFW emotes here. Can be true, false or 'limited'
-    EnableNSFWEmotes = false,
+    EnableNSFWEmotes = true,
     -- You can enable the gang emotes here.
-    EnableGangEmotes = false,
+    EnableGangEmotes = true,
     -- You can enable the social movement emotes here.
-    EnableSocialMovementEmotes = false,
+    EnableSocialMovementEmotes = true,
     -- You can enable the consumable emotes here.
-    EnableConsumableEmotes = false,
+    EnableConsumableEmotes = true,
     -- You can enable the synchronized emotes here.
-    EnableSynchronizedEmotes = false,
+    EnableSynchronizedEmotes = true,
     -- You can enable the animal emotes here.
-    EnableAnimalEmotes = false,
+    EnableAnimalEmotes = true,
     -- You can enable radial menu usage here.
-    EnableRadialMenu = false
+    EnableRadialMenu = true
 }
