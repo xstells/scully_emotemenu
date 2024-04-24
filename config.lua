@@ -40,7 +40,7 @@ Config = {
     -- You can change the notification position here
     NotificationPosition = 'top', -- (top, bottom, top-left, top-right, bottom-left, bottom-right)
     -- You can change the help alert position here
-    HelpAlertPosition = 'right-center', -- (right-center, left-center, top-center)
+    HelpAlertPosition = 'left-center', -- (right-center, left-center, top-center)
     -- Set this to '' to disable the key.
     RagdollKeybind = '', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- Set this to '' to disable the key.
