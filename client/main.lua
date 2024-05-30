@@ -547,7 +547,7 @@ function playEmote(data, variation)
             end
 
             TaskPlayAnim(cache.ped, secondaryEmote.Dictionary, secondaryEmote.Animation, 2.0, 2.0, secondaryEmote.Duration or -1, 51, 0, false, false, false)
-            RemoveAnimDict(dictionaryName)
+            RemoveAnimDict(secondaryEmote.Dictionary)
         end
 
         local propData = data.Options.Props
@@ -693,7 +693,7 @@ function initCloneEmote(data)
             end
 
             TaskPlayAnim(clone, secondaryEmote.Dictionary, secondaryEmote.Animation, 2.0, 2.0, secondaryEmote.Duration or -1, 51, 0, false, false, false)
-            RemoveAnimDict(dictionaryName)
+            RemoveAnimDict(secondaryEmote.Dictionary)
         end
 
         local propData = data.Options.Props
@@ -763,7 +763,7 @@ end
 ---Cancel the animation you're currently playing
 ---@param skipReset boolean
 function cancelEmote(skipReset)
-    if isPlayingAnimation then
+    if isPlayingAnimation and not isActionsLimited then
         if IsPedUsingAnyScenario(cache.ped) then ClearPedTasksImmediately(cache.ped) end
         if LocalPlayer.state.ptfx then LocalPlayer.state:set('ptfx', false, true) end
         if Config.PtfxKeybind then keybinds.PlayPtfx:disable(true) end
@@ -927,7 +927,7 @@ function startPlacementThread(data)
             end
 
             TaskPlayAnim(clone, secondaryEmote.Dictionary, secondaryEmote.Animation, 2.0, 2.0, secondaryEmote.Duration or -1, 51, 0, false, false, false)
-            RemoveAnimDict(dictionaryName)
+            RemoveAnimDict(secondaryEmote.Dictionary)
         end
 
         local propData = data.Options.Props
@@ -1711,6 +1711,8 @@ if Config.HandsUpKey ~= '' then
             TaskPlayAnim(cache.ped, 'random@mugging3', 'handsup_standing_base', 8.0, 8.0, -1, 50, 0, false, onBike and 4127 or false, false)
         end,
         onReleased = function()
+            if isActionsLimited then return end
+            
             ClearPedTasks(cache.ped)
         end
     })
