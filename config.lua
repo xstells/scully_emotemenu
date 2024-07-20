@@ -30,7 +30,7 @@ Config = {
     -- Commands to play an emote.
     EmotePlayCommands = {'e', 'emote', 'eplay'},
     -- Commands to set a walk style.
-    WalkSetCommands = {'w', 'walk'},
+    WalkSetCommands = {'w', 'walk', 'andar'},
     -- Commands to open the menu.
     MenuOpenCommands = {'em', 'emotemenu'},
     -- Set this to '' to disable the key.
@@ -42,11 +42,11 @@ Config = {
     -- You can change the help alert position here
     HelpAlertPosition = 'left-center', -- (right-center, left-center, top-center)
     -- Set this to '' to disable the key.
-    RagdollKeybind = '', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+    RagdollKeybind = 'u', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- Set this to '' to disable the key.
     PtfxKeybind = 'g', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- You can enable automated ptfx on emotes with the Auto flag here. 
-    EnableAutoPtfx = false,
+    EnableAutoPtfx = true,
     -- You can enable the NSFW emotes here. Can be true, false or 'limited'
     EnableNSFWEmotes = true,
     -- You can enable the gang emotes here.
