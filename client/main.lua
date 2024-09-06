@@ -5,6 +5,7 @@ local emoteCooldown, lastEmote, lastVariant, ptfxCanHold, otherPlayer, clone = 0
 local playerParticles, keybinds, registeredEmotes, cloneProps = {}, {}, {}, {}
 local lang = require('locales.' .. Config.Language)
 local pedTypes = require('data.ped_types')
+local pedsObjects = {}
 
 -- Menu Options
 local mainMenuOptions, emoteMenuOptions, emoteMenuBindsOptions = {
@@ -426,7 +427,7 @@ function playEmote(data, variation, ped)
 
     if Config.EnableAimShootBlock then
         CreateThread(function()
-            while isPlayingAnimation and not IsPedRagdoll(ped and ped or cache.ped) do
+            while isPlayingAnimation and not IsPedRagdoll(cache.ped) and not ped do
                 Wait(0)
 
                 DisableControlAction(0, 25, true)
@@ -439,21 +440,21 @@ function playEmote(data, variation, ped)
 
     local duration, movementFlag = nil, cache.vehicle and 51 or 0
 
-    if not Config.AllowedInVehicles and cache.vehicle then
+    if not Config.AllowedInVehicles and cache.vehicle and not ped then
         notify('error', lang.no_animations_in_vehicle)
         return
     end
 
     local gameTimer = GetGameTimer()
 
-    if (gameTimer - emoteCooldown) < Config.EmoteCooldown then return end
+    if ((gameTimer - emoteCooldown) < Config.EmoteCooldown) and not ped then return end
 
     emoteCooldown = gameTimer
 
     TriggerServerEvent('scully_emotemenu:deleteProps')
 
     if data.Scenario then
-        if cache.vehicle then
+        if cache.vehicle and not ped then
             notify('error', lang.no_scenarios_in_vehicle)
             return
         end
@@ -461,7 +462,7 @@ function playEmote(data, variation, ped)
         ClearPedTasks(ped and ped or cache.ped)
         TaskStartScenarioInPlace(ped and ped or cache.ped, data.Scenario, 0, true)
 
-        isPlayingAnimation = true
+        isPlayingAnimation = ped and false or true
         return
     end
 
@@ -499,7 +500,7 @@ function playEmote(data, variation, ped)
 
         if data.Options.Delay then Wait(data.Options.Delay) end
 
-        if not cache.vehicle and data.Options.Flags then
+        if (not cache.vehicle or ped) and data.Options.Flags then
             movementFlag = data.Options.Flags.Stuck and 50 or data.Options.Flags.Move and 51 or data.Options.Flags.Loop and 1 or movementFlag
             if data.Options.Flags.Loop then
                 lastEmote, lastVariant = data, variation
@@ -533,7 +534,7 @@ function playEmote(data, variation, ped)
 
     RemoveAnimDict(dictionaryName)
 
-    isPlayingAnimation = true
+    isPlayingAnimation = ped and false or true
 
     if data.Options then
         local secondaryEmote = data.Options.SecondaryEmote
@@ -578,6 +579,15 @@ function playEmote(data, variation, ped)
                         hasPTFX = i == 1 and data.Options.Ptfx and data.Options.Ptfx.AttachToProp
                     }
                 end
+
+                if ped then 
+                    local coords = GetEntityCoords(ped)
+                    for i = 1, #propList do
+                        local prop = propList[i]
+                        pedsObjects[#pedsObjects + 1] = CreateObject(prop.hash, coords.x, coords.y, coords.z, false)
+                        addPropToPlayer(pedsObjects[#pedsObjects], prop.bone, prop.placement, prop.variant, ped)
+                    end
+                return end
 
                 local props = lib.callback.await('scully_emotemenu:spawnProps', false, propList)
 
@@ -1050,12 +1060,12 @@ end
 ---@param bone number
 ---@param placement table
 ---@param variant number
-function addPropToPlayer(object, bone, placement, variant)
+function addPropToPlayer(object, bone, placement, variant, ped)
     SetEntityCollision(object, false, false)
 
     if variant then SetObjectTextureVariation(object, variant) end
 
-    AttachEntityToEntity(object, cache.ped, GetPedBoneIndex(cache.ped, bone), placement[1].x, placement[1].y, placement[1].z, placement[2].x, placement[2].y, placement[2].z, true, true, false, true, 1, true)
+    AttachEntityToEntity(object, ped and ped or cache.ped, GetPedBoneIndex(ped and ped or cache.ped, bone), placement[1].x, placement[1].y, placement[1].z, placement[2].x, placement[2].y, placement[2].z, true, true, false, true, 1, true)
 end
 
 ---Remove unsupported emotes
@@ -2035,6 +2045,16 @@ RegisterNetEvent('scully_emotemenu:cancelSynchronizedEmote', function()
     cancelEmote(false)
 end)
 
+-- Clear pedsObjects list and delete objects
+function clearpedsObjects()
+    for i = 1, #pedsObjects do
+        DeleteEntity(pedsObjects[i])
+    end
+
+    pedsObjects = {}
+end
+exports('clearpedsObjects', clearpedsObjects)
+
 -- Cache
 lib.onCache('ped', function(playerPed)
     if cache.ped ~= playerPed then
@@ -2118,6 +2138,7 @@ end)
 
 AddEventHandler('onResourceStop', function(resource)
     if resource == GetCurrentResourceName() then
+        clearpedsObjects()
         cancelEmote(false)
     end
 end)
