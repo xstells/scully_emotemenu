@@ -363,7 +363,7 @@ end
 ---Play an emote by command
 ---@param command string
 ---@param variant? number
-function playEmoteByCommand(command, variant)
+function playEmoteByCommand(command, variant, ped)
     local _type, emote = getEmoteByCommand(command)
 
     if not _type or _type == 'Walks' then
@@ -376,22 +376,22 @@ function playEmoteByCommand(command, variant)
         return
     end
 
-    playEmote(emote --[[@as table]], variant)
+    playEmote(emote --[[@as table]], variant, ped)
 end
 exports('playEmoteByCommand', playEmoteByCommand)
 
 ---Play an animation
 ---@param data table
 ---@param variation? number
-function playEmote(data, variation)
+function playEmote(data, variation, ped)
     if data.PedTypes then
-        if IsPedHuman(cache.ped) then
+        if IsPedHuman(ped and ped or cache.ped) then
             notify('error', lang.not_valid_ped)
             return
         end
 
         local validPed = false
-        local playerModel = GetEntityModel(cache.ped)
+        local playerModel = GetEntityModel(ped and ped or cache.ped)
 
         for i = 1, #data.PedTypes do
             local allowedPeds = pedTypes[data.PedTypes[i]]
@@ -409,7 +409,7 @@ function playEmote(data, variation)
         end
     end
 
-    if not data.PedTypes and not IsPedHuman(cache.ped) then
+    if not data.PedTypes and not IsPedHuman(ped and ped or cache.ped) then
         notify('error', lang.not_valid_ped)
         return
     end
@@ -419,14 +419,14 @@ function playEmote(data, variation)
         return
     end
 
-    if Config.EnableWeaponBlock and IsPedArmed(cache.ped, 7) then
+    if Config.EnableWeaponBlock and IsPedArmed(ped and ped or cache.ped, 7) then
         notify('error', lang.not_with_weapon)
         return
     end
 
     if Config.EnableAimShootBlock then
         CreateThread(function()
-            while isPlayingAnimation and not IsPedRagdoll(cache.ped) do
+            while isPlayingAnimation and not IsPedRagdoll(ped and ped or cache.ped) do
                 Wait(0)
 
                 DisableControlAction(0, 25, true)
@@ -458,8 +458,8 @@ function playEmote(data, variation)
             return
         end
 
-        ClearPedTasks(cache.ped)
-        TaskStartScenarioInPlace(cache.ped, data.Scenario, 0, true)
+        ClearPedTasks(ped and ped or cache.ped)
+        TaskStartScenarioInPlace(ped and ped or cache.ped, data.Scenario, 0, true)
 
         isPlayingAnimation = true
         return
@@ -526,9 +526,9 @@ function playEmote(data, variation)
     if data.Advanced then
         local coords = data.Advanced.Coords
 
-        TaskPlayAnimAdvanced(cache.ped, dictionaryName, animationName, coords.x, coords.y, coords.z, 0, 0, data.Advanced.Heading, 2.0, 2.0, duration or -1, movementFlag, 1.0, false, false)
+        TaskPlayAnimAdvanced(ped and ped or cache.ped, dictionaryName, animationName, coords.x, coords.y, coords.z, 0, 0, data.Advanced.Heading, 2.0, 2.0, duration or -1, movementFlag, 1.0, false, false)
     else
-        TaskPlayAnim(cache.ped, dictionaryName, animationName, 2.0, 2.0, duration or -1, movementFlag, 0, false, false, false)
+        TaskPlayAnim(ped and ped or cache.ped, dictionaryName, animationName, 2.0, 2.0, duration or -1, movementFlag, 0, false, false, false)
     end
 
     RemoveAnimDict(dictionaryName)
@@ -546,7 +546,7 @@ function playEmote(data, variation)
                 return
             end
 
-            TaskPlayAnim(cache.ped, secondaryEmote.Dictionary, secondaryEmote.Animation, 2.0, 2.0, secondaryEmote.Duration or -1, 51, 0, false, false, false)
+            TaskPlayAnim(ped and ped or cache.ped, secondaryEmote.Dictionary, secondaryEmote.Animation, 2.0, 2.0, secondaryEmote.Duration or -1, 51, 0, false, false, false)
             RemoveAnimDict(secondaryEmote.Dictionary)
         end
 
@@ -626,10 +626,10 @@ function initCloneEmote(data)
         return
     end
 
-    local clonePos = GetOffsetFromEntityInWorldCoords(cache.ped, 0.0, 4.5, 0.0)
-    local cloneHeading = GetEntityHeading(cache.ped) + 180
+    local clonePos = GetOffsetFromEntityInWorldCoords(ped and ped or cache.ped, 0.0, 4.5, 0.0)
+    local cloneHeading = GetEntityHeading(ped and ped or cache.ped) + 180
 
-    clone = ClonePed(cache.ped, false, false, true)
+    clone = ClonePed(ped and ped or cache.ped, false, false, true)
 
     SetEntityCoords(clone, clonePos.x, clonePos.y, clonePos.z, false, false, false, false)
     SetEntityHeading(clone, cloneHeading)
