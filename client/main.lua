@@ -502,7 +502,7 @@ function playEmote(data, variation, ped)
 
         if (not cache.vehicle or ped) and data.Options.Flags then
             movementFlag = data.Options.Flags.Stuck and 50 or data.Options.Flags.Move and 51 or data.Options.Flags.Loop and 1 or movementFlag
-            if data.Options.Flags.Loop then
+            if data.Options.Flags.Loop and not ped then
                 lastEmote, lastVariant = data, variation
             end
         end
