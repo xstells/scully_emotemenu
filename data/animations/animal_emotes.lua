@@ -1,1889 +1,7 @@
 return {
     {
-        Label = 'Bark (big dog)',
-        Command = 'bdogbark',
-        Animation = 'idle_a',
-        Dictionary = 'creatures@rottweiler@amb@world_dog_barking@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Beg (big dog)',
-        Command = 'bdogbeg',
-        Animation = 'beg_loop',
-        Dictionary = 'creatures@rottweiler@tricks@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Beg 2 (big dog)',
-        Command = 'bdogbeg2',
-        Animation = 'paw_right_loop',
-        Dictionary = 'creatures@rottweiler@tricks@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Dump (big dog)',
-        Command = 'bdogdump',
-        Animation = 'dump_loop',
-        Dictionary = 'creatures@rottweiler@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 51826,
-                    Name = 'prop_big_shit_02',
-                    Placement = {
-                        vector3(0.000000, 0.200000, -0.460000),
-                        vector3(0.000000, -20.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Glow Stick (big dog)',
-        Command = 'bdogglowa',
-        Animation = 'nill',
-        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
-        Options = {
-            Flags = {
-                Loop = true,
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'ba_prop_battle_glowstick_01',
-                    Placement = {
-                        vector3(0.200000, 0.000000, -0.060000),
-                        vector3(90.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Glow Stick Sitting (big dog)',
-        Command = 'bdogglowb',
-        Animation = 'base',
-        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'ba_prop_battle_glowstick_01',
-                    Placement = {
-                        vector3(0.200000, 0.000000, -0.060000),
-                        vector3(90.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Hump (big dog)',
-        Command = 'bdoghump',
-        Animation = 'hump_loop_chop',
-        Dictionary = 'creatures@rottweiler@amb@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        NSFW = true
-    },
-    {
-        Label = 'Hump 2 (big dog)',
-        Command = 'bdoghump2',
-        Animation = 'hump_loop_ladydog',
-        Dictionary = 'creatures@rottweiler@amb@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        NSFW = true
-    },
-    {
-        Label = 'Itch (big dog)',
-        Command = 'bdogitch',
-        Animation = 'idle_a',
-        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@idle_a',
-        Options = {
-            Duration = 2000,
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Lay Down (big dog)',
-        Command = 'bdoglay',
-        Animation = 'dead_left',
-        Dictionary = 'creatures@rottweiler@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Lay Down 2 (big dog)',
-        Command = 'bdoglay2',
-        Animation = 'dead_right',
-        Dictionary = 'creatures@rottweiler@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Pee (big dog)',
-        Command = 'bdogpee',
-        Animation = 'pee_left_idle',
-        Dictionary = 'creatures@rottweiler@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Ptfx = {
-                Asset = 'scr_amb_chop',
-                CanHold = true,
-                Name = 'ent_anim_dog_peeing',
-                Placement = {
-                    vector3(-0.150000, -0.350000, 0.000000),
-                    vector3(0.000000, 90.000000, 180.000000),
-                    1.0,
-                },
-                Wait = 3000,
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Pee 2 (big dog)',
-        Command = 'bdogpee2',
-        Animation = 'pee_right_idle',
-        Dictionary = 'creatures@rottweiler@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Ptfx = {
-                Asset = 'scr_amb_chop',
-                CanHold = true,
-                Name = 'ent_anim_dog_peeing',
-                Placement = {
-                    vector3(0.150000, -0.350000, 0.000000),
-                    vector3(0.000000, 90.000000, 0.000000),
-                    1.0,
-                },
-                Wait = 3000,
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Sit Pride A (big dog)',
-        Command = 'bdogpridea',
-        Animation = 'base',
-        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag1',
-                    Placement = {
-                        vector3(0.190000, 0.000000, -0.050000),
-                        vector3(100.000000, 90.000000, 0.000000),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag1',
-                    Placement = {
-                        vector3(0.194000, 0.020000, -0.050000),
-                        vector3(-90.000000, -90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Sit Pride B - LGBTQIA (big dog)',
-        Command = 'bdogprideb',
-        Animation = 'base',
-        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag2',
-                    Placement = {
-                        vector3(0.190000, 0.000000, -0.050000),
-                        vector3(100.000000, 90.000000, 0.000000),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag2',
-                    Placement = {
-                        vector3(0.194000, 0.020000, -0.050000),
-                        vector3(-90.000000, -90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Sit Pride C - Bisexual (big dog)',
-        Command = 'bdogpridec',
-        Animation = 'base',
-        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag3',
-                    Placement = {
-                        vector3(0.190000, 0.000000, -0.050000),
-                        vector3(100.000000, 90.000000, 0.000000),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag3',
-                    Placement = {
-                        vector3(0.194000, 0.020000, -0.050000),
-                        vector3(-90.000000, -90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Sit Pride D - Lesbian (big dog)',
-        Command = 'bdogprided',
-        Animation = 'base',
-        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag4',
-                    Placement = {
-                        vector3(0.190000, 0.000000, -0.050000),
-                        vector3(100.000000, 90.000000, 0.000000),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag4',
-                    Placement = {
-                        vector3(0.194000, 0.020000, -0.050000),
-                        vector3(-90.000000, -90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Sit Pride E - Pansexual (big dog)',
-        Command = 'bdogpridee',
-        Animation = 'base',
-        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag5',
-                    Placement = {
-                        vector3(0.190000, 0.000000, -0.050000),
-                        vector3(100.000000, 90.000000, 0.000000),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag5',
-                    Placement = {
-                        vector3(0.194000, 0.020000, -0.050000),
-                        vector3(-90.000000, -90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Sit Pride F - Transgender (big dog)',
-        Command = 'bdogpridef',
-        Animation = 'base',
-        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag6',
-                    Placement = {
-                        vector3(0.190000, 0.000000, -0.050000),
-                        vector3(100.000000, 90.000000, 0.000000),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag6',
-                    Placement = {
-                        vector3(0.194000, 0.020000, -0.050000),
-                        vector3(-90.000000, -90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Sit Pride G - Non Binary (big dog)',
-        Command = 'bdogprideg',
-        Animation = 'base',
-        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag7',
-                    Placement = {
-                        vector3(0.190000, 0.000000, -0.050000),
-                        vector3(100.000000, 90.000000, 0.000000),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag7',
-                    Placement = {
-                        vector3(0.194000, 0.020000, -0.050000),
-                        vector3(-90.000000, -90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Sit Pride H - Asexual (big dog)',
-        Command = 'bdogprideh',
-        Animation = 'base',
-        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag8',
-                    Placement = {
-                        vector3(0.190000, 0.000000, -0.050000),
-                        vector3(100.000000, 90.000000, 0.000000),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag8',
-                    Placement = {
-                        vector3(0.194000, 0.020000, -0.050000),
-                        vector3(-90.000000, -90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Sit Pride I - Straight Ally (big dog)',
-        Command = 'bdogpridei',
-        Animation = 'base',
-        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag9',
-                    Placement = {
-                        vector3(0.190000, 0.000000, -0.050000),
-                        vector3(100.000000, 90.000000, 0.000000),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag9',
-                    Placement = {
-                        vector3(0.194000, 0.020000, -0.050000),
-                        vector3(-90.000000, -90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Sit (big dog)',
-        Command = 'bdogsit',
-        Animation = 'base',
-        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Sleep (big dog)',
-        Command = 'bdogsleep',
-        Animation = 'sleep_in_kennel',
-        Dictionary = 'creatures@rottweiler@amb@sleep_in_kennel@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Bark (small dog)',
-        Command = 'sdogbark',
-        Animation = 'idle_a',
-        Dictionary = 'creatures@pug@amb@world_dog_barking@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Baseball (small dog)',
-        Command = 'sdogbb',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'w_am_baseball',
-                    Placement = {
-                        vector3(0.150000, -0.050000, 0.000000),
-                        vector3(0.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Burger (small dog)',
-        Command = 'sdogburger',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'prop_cs_burger_01',
-                    Placement = {
-                        vector3(0.150000, -0.040000, 0.000000),
-                        vector3(-90.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Controller (small dog)',
-        Command = 'sdogcontroller',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'prop_controller_01',
-                    Placement = {
-                        vector3(0.180000, -0.030000, 0.000000),
-                        vector3(-180.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Dance (small dog)',
-        Command = 'sdogdance',
-        Animation = 'idle_turn_0',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'ba_prop_battle_glowstick_01',
-                    Placement = {
-                        vector3(0.150000, -0.030000, 0.000000),
-                        vector3(0.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Dance 2 (small dog)',
-        Command = 'sdogdance2',
-        Animation = 'idle_turn_0',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'ba_prop_battle_glowstick_01',
-                    Placement = {
-                        vector3(0.150000, -0.030000, 0.000000),
-                        vector3(0.000000, 0.000000, 0.000000),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'prop_cs_sol_glasses',
-                    Placement = {
-                        vector3(0.050000, 0.030000, 0.000000),
-                        vector3(-100.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Dance Pride A (small dog)',
-        Command = 'sdogdancepridea',
-        Animation = 'idle_turn_0',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag1',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'prop_cs_sol_glasses',
-                    Placement = {
-                        vector3(0.050000, 0.030000, 0.000000),
-                        vector3(-100.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Dance Pride B - LGBTQIA (small dog)',
-        Command = 'sdogdanceprideb',
-        Animation = 'idle_turn_0',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag2',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'prop_cs_sol_glasses',
-                    Placement = {
-                        vector3(0.050000, 0.030000, 0.000000),
-                        vector3(-100.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Dance Pride C - Bisexual (small dog)',
-        Command = 'sdogdancepridec',
-        Animation = 'idle_turn_0',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag3',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'prop_cs_sol_glasses',
-                    Placement = {
-                        vector3(0.050000, 0.030000, 0.000000),
-                        vector3(-100.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Dance Pride D - Lesbian (small dog)',
-        Command = 'sdogdanceprided',
-        Animation = 'idle_turn_0',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag4',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'prop_cs_sol_glasses',
-                    Placement = {
-                        vector3(0.050000, 0.030000, 0.000000),
-                        vector3(-100.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Dance Pride E - Pansexual (small dog)',
-        Command = 'sdogdancepridee',
-        Animation = 'idle_turn_0',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag5',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'prop_cs_sol_glasses',
-                    Placement = {
-                        vector3(0.050000, 0.030000, 0.000000),
-                        vector3(-100.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Dance Pride F - Transgender (small dog)',
-        Command = 'sdogdancepridef',
-        Animation = 'idle_turn_0',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag6',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'prop_cs_sol_glasses',
-                    Placement = {
-                        vector3(0.050000, 0.030000, 0.000000),
-                        vector3(-100.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Dance Pride G - Non Binary (small dog)',
-        Command = 'sdogdanceprideg',
-        Animation = 'idle_turn_0',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag7',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'prop_cs_sol_glasses',
-                    Placement = {
-                        vector3(0.050000, 0.030000, 0.000000),
-                        vector3(-100.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Dance Pride H - Asexual (small dog)',
-        Command = 'sdogdanceprideh',
-        Animation = 'idle_turn_0',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag8',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'prop_cs_sol_glasses',
-                    Placement = {
-                        vector3(0.050000, 0.030000, 0.000000),
-                        vector3(-100.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Dance Pride I - Straight Ally (small dog)',
-        Command = 'sdogdancepridei',
-        Animation = 'idle_turn_0',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag9',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'prop_cs_sol_glasses',
-                    Placement = {
-                        vector3(0.050000, 0.030000, 0.000000),
-                        vector3(-100.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Dollar Bill (small dog)',
-        Command = 'sdogdolla',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'p_banknote_onedollar_s',
-                    Placement = {
-                        vector3(0.170000, -0.010000, 0.000000),
-                        vector3(90.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Dollar Bill Scrunched  (small dog)',
-        Command = 'sdogdolla2',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'bkr_prop_scrunched_moneypage',
-                    Placement = {
-                        vector3(0.170000, 0.000000, 0.000000),
-                        vector3(90.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Money Stack  (small dog)',
-        Command = 'sdogdolla3',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'bkr_prop_money_wrapped_01',
-                    Placement = {
-                        vector3(0.170000, -0.010000, 0.000000),
-                        vector3(90.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Money Bag  (small dog)',
-        Command = 'sdogdolla4',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'ch_prop_ch_moneybag_01a',
-                    Placement = {
-                        vector3(0.120000, -0.200000, 0.000000),
-                        vector3(-80.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Gun Gold (small dog)',
-        Command = 'sdogggun',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 12844,
-                    Name = 'w_pi_pistol_luxe',
-                    Placement = {
-                        vector3(0.201000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Aviators (small dog)',
-        Command = 'sdoggl1',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'prop_aviators_01',
-                    Placement = {
-                        vector3(0.050000, 0.040000, 0.000000),
-                        vector3(-90.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Aviators Sitting (small dog)',
-        Command = 'sdoggl2',
-        Animation = 'idle_b',
-        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'prop_aviators_01',
-                    Placement = {
-                        vector3(0.050000, 0.040000, 0.000000),
-                        vector3(-90.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Sunglasses (small dog)',
-        Command = 'sdoggl3',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'prop_cs_sol_glasses',
-                    Placement = {
-                        vector3(0.050000, 0.030000, 0.000000),
-                        vector3(-100.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Sunglasses Sitting (small dog)',
-        Command = 'sdoggl4',
-        Animation = 'idle_b',
-        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'prop_cs_sol_glasses',
-                    Placement = {
-                        vector3(0.050000, 0.030000, 0.000000),
-                        vector3(-100.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Gun Gold Sit (small dog)',
-        Command = 'sdoggun2',
-        Animation = 'idle_b',
-        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 12844,
-                    Name = 'w_pi_pistol_luxe',
-                    Placement = {
-                        vector3(0.201000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Hat 1 (small dog)',
-        Command = 'sdoghat',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'prop_proxy_hat_01',
-                    Placement = {
-                        vector3(0.000000, 0.120000, 0.000000),
-                        vector3(-99.851074, 80.148926, 1.727941),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'prop_aviators_01',
-                    Placement = {
-                        vector3(0.050000, 0.040000, 0.000000),
-                        vector3(-90.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Hat 2 Sitting (small dog)',
-        Command = 'sdoghat2',
-        Animation = 'idle_b',
-        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'prop_proxy_hat_01',
-                    Placement = {
-                        vector3(0.000000, 0.120000, 0.000000),
-                        vector3(-99.851074, 80.148926, 1.727941),
-                    },
-                },
-                {
-                    Bone = 31086,
-                    Name = 'prop_aviators_01',
-                    Placement = {
-                        vector3(0.050000, 0.040000, 0.000000),
-                        vector3(-90.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Hot Dog (small dog)',
-        Command = 'sdoghd1',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'prop_cs_hotdog_01',
-                    Placement = {
-                        vector3(0.130000, -0.025000, 0.000000),
-                        vector3(-88.272057, -9.846586, -0.148856),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Hot Dog Sitting (small dog)',
-        Command = 'sdoghd2',
-        Animation = 'idle_b',
-        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'prop_cs_hotdog_01',
-                    Placement = {
-                        vector3(0.130000, -0.025000, 0.000000),
-                        vector3(-88.272057, -9.846586, -0.148856),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Helmet 1 (small dog)',
-        Command = 'sdoghlmt1',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'ba_prop_battle_sports_helmet',
-                    Placement = {
-                        vector3(0.000000, -0.020000, 0.000000),
-                        vector3(-90.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Helmet 2 (small dog)',
-        Command = 'sdoghlmt2',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'prop_hard_hat_01',
-                    Placement = {
-                        vector3(0.000000, 0.130000, 0.000000),
-                        vector3(-90.000000, 90.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Itch (small dog)',
-        Command = 'sdogitch',
-        Animation = 'idle_a',
-        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
-        Options = {
-            Duration = 2000,
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Microphone (small dog)',
-        Command = 'sdogmic',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'p_ing_microphonel_01',
-                    Placement = {
-                        vector3(0.150000, -0.017000, 0.030000),
-                        vector3(0.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Pee (Small Dog)',
-        Command = 'sdogpee',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Ptfx = {
-                Asset = 'scr_amb_chop',
-                CanHold = true,
-                Name = 'ent_anim_dog_peeing',
-                Placement = {
-                    vector3(-0.010000, -0.170000, 0.090000),
-                    vector3(0.000000, 90.000000, 140.000000),
-                    1.0,
-                },
-                Wait = 3000,
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Pride A (small dog)',
-        Command = 'sdogpridea',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag1',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Pride B - LGBTQIA (small dog)',
-        Command = 'sdogprideb',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag2',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Pride C - Bisexual (small dog)',
-        Command = 'sdogpridec',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag3',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Pride D - Lesbian (small dog)',
-        Command = 'sdogprided',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag4',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Pride E - Pansexual (small dog)',
-        Command = 'sdogpridee',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag5',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Pride F - Transgender (small dog)',
-        Command = 'sdogpridef',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag6',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Pride G - Non Binary (small dog)',
-        Command = 'sdogprideg',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag6',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Pride H - Non Binary (small dog)',
-        Command = 'sdogprideh',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag7',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Pride I - Asexual (small dog)',
-        Command = 'sdogpridei',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag8',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Pride A Sit (small dog)',
-        Command = 'sdogpridesita',
-        Animation = 'idle_b',
-        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag1',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Pride B Sit LGBTQIA (small dog)',
-        Command = 'sdogpridesitb',
-        Animation = 'idle_b',
-        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag2',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Pride C Sit Bisexual (small dog)',
-        Command = 'sdogpridesitc',
-        Animation = 'idle_b',
-        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag3',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Pride D Sit Lesbian (small dog)',
-        Command = 'sdogpridesitd',
-        Animation = 'idle_b',
-        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag4',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Pride E Sit Pansexual (small dog)',
-        Command = 'sdogpridesite',
-        Animation = 'idle_b',
-        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag5',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Pride F Sit Transgender (small dog)',
-        Command = 'sdogpridesitf',
-        Animation = 'idle_b',
-        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag6',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Pride G Sit Non Binary (small dog)',
-        Command = 'sdogpridesitg',
-        Animation = 'idle_b',
-        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag7',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Pride H Sit Asexual (small dog)',
-        Command = 'sdogpridesith',
-        Animation = 'idle_b',
-        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag8',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Pride I Sit Straight Ally (small dog)',
-        Command = 'sdogpridesiti',
-        Animation = 'idle_b',
-        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'lilprideflag9',
-                    Placement = {
-                        vector3(0.124000, -0.008000, 0.000000),
-                        vector3(0.000000, 0.000000, -74.699898),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-        SocialMovement = true,
-    },
-    {
-        Label = 'Rose (small dog)',
-        Command = 'sdogrose',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 12844,
-                    Name = 'prop_single_rose',
-                    Placement = {
-                        vector3(0.109000, -0.014000, 0.050000),
-                        vector3(0.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Rose Sit (small dog)',
-        Command = 'sdogrose2',
-        Animation = 'idle_b',
-        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 12844,
-                    Name = 'prop_single_rose',
-                    Placement = {
-                        vector3(0.109000, -0.014000, 0.050000),
-                        vector3(0.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Shake (small dog)',
-        Command = 'sdogshake',
-        Animation = 'idle_c',
-        Dictionary = 'creatures@pug@amb@world_dog_barking@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Sit (small dog)',
-        Command = 'sdogsit',
-        Animation = 'idle_b',
-        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Sit Car (big dog)',
-        Command = 'bdogsitcar',
-        Animation = 'sit',
-        Dictionary = 'creatures@rottweiler@incar@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Steak (small dog)',
-        Command = 'sdogsteak',
-        Animation = 'nill',
-        Dictionary = 'creatures@pug@move',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'prop_cs_steak',
-                    Placement = {
-                        vector3(0.180000, -0.020000, 0.000000),
-                        vector3(90.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Steak 2 Lay Down (small dog)',
-        Command = 'sdogsteak2',
-        Animation = 'idle_c',
-        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 31086,
-                    Name = 'prop_cs_steak',
-                    Placement = {
-                        vector3(0.180000, -0.020000, 0.000000),
-                        vector3(90.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-        },
-        PedTypes = {'dogs', 'cats'},
-    },
-    {
-        Label = 'Stun Gun (small dog)',
-        Command = 'sdogstun',
+        Label = 'Arma de Choque (Cachorro Pequeno)',
+        Command = 'achoquecachorrop',
         Animation = 'nill',
         Dictionary = 'creatures@pug@move',
         Options = {
@@ -1915,8 +33,52 @@ return {
         PedTypes = {'dogs', 'cats'},
     },
     {
-        Label = 'Teddy (small dog)',
-        Command = 'sdogteddy',
+        Label = 'Arma de Ouro (Cachorro Pequeno)',
+        Command = 'armaouroc',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 12844,
+                    Name = 'w_pi_pistol_luxe',
+                    Placement = {
+                        vector3(0.201000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Arma Ouro Sente-se (Cachorro Pequeno)',
+        Command = 'aourocachorrop',
+        Animation = 'idle_b',
+        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 12844,
+                    Name = 'w_pi_pistol_luxe',
+                    Placement = {
+                        vector3(0.201000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Aviador (Cachorro Pequeno)',
+        Command = 'avicachorrop',
         Animation = 'nill',
         Dictionary = 'creatures@pug@move',
         Options = {
@@ -1926,10 +88,10 @@ return {
             Props = {
                 {
                     Bone = 31086,
-                    Name = 'v_ilev_mr_rasberryclean',
+                    Name = 'prop_aviators_01',
                     Placement = {
-                        vector3(0.150000, -0.110000, -0.230000),
-                        vector3(0.000000, 0.000000, 0.000000),
+                        vector3(0.050000, 0.040000, 0.000000),
+                        vector3(-90.000000, 90.000000, 0.000000),
                     },
                 },
             },
@@ -1937,8 +99,8 @@ return {
         PedTypes = {'dogs', 'cats'},
     },
     {
-        Label = 'Teddy 2 (small dog)',
-        Command = 'sdogteddy2',
+        Label = 'Aviadores Sentados (Cachorro Pequeno)',
+        Command = 'avicachopq',
         Animation = 'idle_b',
         Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
         Options = {
@@ -1948,9 +110,31 @@ return {
             Props = {
                 {
                     Bone = 31086,
-                    Name = 'v_ilev_mr_rasberryclean',
+                    Name = 'prop_aviators_01',
                     Placement = {
-                        vector3(0.150000, -0.110000, -0.230000),
+                        vector3(0.050000, 0.040000, 0.000000),
+                        vector3(-90.000000, 90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Baseball (Cachorro Pequeno)',
+        Command = 'bcachorrop',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'w_am_baseball',
+                    Placement = {
+                        vector3(0.150000, -0.050000, 0.000000),
                         vector3(0.000000, 0.000000, 0.000000),
                     },
                 },
@@ -1959,8 +143,97 @@ return {
         PedTypes = {'dogs', 'cats'},
     },
     {
-        Label = 'Tennis Ball (small dog)',
-        Command = 'sdogtennis',
+        Label = 'Bastão Luminoso (Cachorro Grande)',
+        Command = 'gcachorrog',
+        Animation = 'nill',
+        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'ba_prop_battle_glowstick_01',
+                    Placement = {
+                        vector3(0.200000, 0.000000, -0.060000),
+                        vector3(90.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Bastão luminoso Sentado (Cachorro Grande)',
+        Command = 'bdogglowb',
+        Animation = 'base',
+        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'ba_prop_battle_glowstick_01',
+                    Placement = {
+                        vector3(0.200000, 0.000000, -0.060000),
+                        vector3(90.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Bife (Cachorro Pequeno)',
+        Command = 'bifechg',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'prop_cs_steak',
+                    Placement = {
+                        vector3(0.180000, -0.020000, 0.000000),
+                        vector3(90.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Bife 2 Deitar (Cachorro Pequeno)',
+        Command = 'bifechdeitar',
+        Animation = 'idle_c',
+        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'prop_cs_steak',
+                    Placement = {
+                        vector3(0.180000, -0.020000, 0.000000),
+                        vector3(90.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Bola de Tennis (Cachorro Pequeno)',
+        Command = 'btenischpq',
         Animation = 'nill',
         Dictionary = 'creatures@pug@move',
         Options = {
@@ -1981,8 +254,1207 @@ return {
         PedTypes = {'dogs', 'cats'},
     },
     {
-        Label = 'Tennis Racket (small dog)',
-        Command = 'sdogtennisr',
+        Label = 'Bolsa de Dinheiro (Cachorro Pequeno)',
+        Command = 'bdinheiroc',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'ch_prop_ch_moneybag_01a',
+                    Placement = {
+                        vector3(0.120000, -0.200000, 0.000000),
+                        vector3(-80.000000, 90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Cachorro Quente (Cachorro Pequeno)',
+        Command = 'chquente',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'prop_cs_hotdog_01',
+                    Placement = {
+                        vector3(0.130000, -0.025000, 0.000000),
+                        vector3(-88.272057, -9.846586, -0.148856),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Cachorro Quente Sentado (Cachorro Pequeno)',
+        Command = 'chsentados',
+        Animation = 'idle_b',
+        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'prop_cs_hotdog_01',
+                    Placement = {
+                        vector3(0.130000, -0.025000, 0.000000),
+                        vector3(-88.272057, -9.846586, -0.148856),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Capacete (Cachorro Pequeno)',
+        Command = 'ccachorropqn',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'ba_prop_battle_sports_helmet',
+                    Placement = {
+                        vector3(0.000000, -0.020000, 0.000000),
+                        vector3(-90.000000, 90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Capacete 2 (Cachorro Pequeno)',
+        Command = 'ccachorropqn2',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'prop_hard_hat_01',
+                    Placement = {
+                        vector3(0.000000, 0.130000, 0.000000),
+                        vector3(-90.000000, 90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Chapeu 1 (Cachorro Pequeno)',
+        Command = 'chapeuch1',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'prop_proxy_hat_01',
+                    Placement = {
+                        vector3(0.000000, 0.120000, 0.000000),
+                        vector3(-99.851074, 80.148926, 1.727941),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'prop_aviators_01',
+                    Placement = {
+                        vector3(0.050000, 0.040000, 0.000000),
+                        vector3(-90.000000, 90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Chapeu 2 Sentado (Cachorro Pequeno)',
+        Command = 'chapeuch2',
+        Animation = 'idle_b',
+        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'prop_proxy_hat_01',
+                    Placement = {
+                        vector3(0.000000, 0.120000, 0.000000),
+                        vector3(-99.851074, 80.148926, 1.727941),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'prop_aviators_01',
+                    Placement = {
+                        vector3(0.050000, 0.040000, 0.000000),
+                        vector3(-90.000000, 90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Coceira (Cachorro Grande)',
+        Command = 'coceiracg',
+        Animation = 'idle_a',
+        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@idle_a',
+        Options = {
+            Duration = 2000,
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Coceira (Cachorro Pequeno)',
+        Command = 'coceirachpq',
+        Animation = 'idle_a',
+        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
+        Options = {
+            Duration = 2000,
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Controlador (Cachorro Pequeno)',
+        Command = 'ccachorrop',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'prop_controller_01',
+                    Placement = {
+                        vector3(0.180000, -0.030000, 0.000000),
+                        vector3(-180.000000, 90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Corcunda (Cachorro Grande)',
+        Command = 'ccachorrog',
+        Animation = 'hump_loop_chop',
+        Dictionary = 'creatures@rottweiler@amb@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        NSFW = true
+    },
+    {
+        Label = 'Corcunda (Cachorro Grande) 2',
+        Command = 'ccachorrog2',
+        Animation = 'hump_loop_ladydog',
+        Dictionary = 'creatures@rottweiler@amb@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        NSFW = true
+    },
+    {
+        Label = 'Dança (Cachorro Pequeno)',
+        Command = 'dancacachorrop',
+        Animation = 'idle_turn_0',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'ba_prop_battle_glowstick_01',
+                    Placement = {
+                        vector3(0.150000, -0.030000, 0.000000),
+                        vector3(0.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Dança 2 (Cachorro Pequeno)',
+        Command = 'dancacachorrop',
+        Animation = 'idle_turn_0',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'ba_prop_battle_glowstick_01',
+                    Placement = {
+                        vector3(0.150000, -0.030000, 0.000000),
+                        vector3(0.000000, 0.000000, 0.000000),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'prop_cs_sol_glasses',
+                    Placement = {
+                        vector3(0.050000, 0.030000, 0.000000),
+                        vector3(-100.000000, 90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Dança Orgulho (Cachorro Pequeno)',
+        Command = 'dancaocachorrop',
+        Animation = 'idle_turn_0',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag1',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'prop_cs_sol_glasses',
+                    Placement = {
+                        vector3(0.050000, 0.030000, 0.000000),
+                        vector3(-100.000000, 90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Dança Orgulho 2 (Cachorro Pequeno)',
+        Command = 'dancaocachorrop2',
+        Animation = 'idle_turn_0',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag2',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'prop_cs_sol_glasses',
+                    Placement = {
+                        vector3(0.050000, 0.030000, 0.000000),
+                        vector3(-100.000000, 90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Dança Orgulho 3 (Cachorro Pequeno)',
+        Command = 'dancaocachorrop3',
+        Animation = 'idle_turn_0',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag3',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'prop_cs_sol_glasses',
+                    Placement = {
+                        vector3(0.050000, 0.030000, 0.000000),
+                        vector3(-100.000000, 90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Dança Orgulho 4 (Cachorro Pequeno)',
+        Command = 'dancaocachorrop4',
+        Animation = 'idle_turn_0',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag4',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'prop_cs_sol_glasses',
+                    Placement = {
+                        vector3(0.050000, 0.030000, 0.000000),
+                        vector3(-100.000000, 90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Dança Orgulho 5 (Cachorro Pequeno)',
+        Command = 'dancaocachorrop5',
+        Animation = 'idle_turn_0',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag5',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'prop_cs_sol_glasses',
+                    Placement = {
+                        vector3(0.050000, 0.030000, 0.000000),
+                        vector3(-100.000000, 90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Dança Orgulho 6 (Cachorro Pequeno)',
+        Command = 'dancaocachorrop6',
+        Animation = 'idle_turn_0',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag6',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'prop_cs_sol_glasses',
+                    Placement = {
+                        vector3(0.050000, 0.030000, 0.000000),
+                        vector3(-100.000000, 90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Dança Orgulho 7 (Cachorro Pequeno)',
+        Command = 'dancaocachorrop7',
+        Animation = 'idle_turn_0',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag7',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'prop_cs_sol_glasses',
+                    Placement = {
+                        vector3(0.050000, 0.030000, 0.000000),
+                        vector3(-100.000000, 90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Dança Orgulho 8 (Cachorro Pequeno)',
+        Command = 'dancaocachorrop8',
+        Animation = 'idle_turn_0',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag8',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'prop_cs_sol_glasses',
+                    Placement = {
+                        vector3(0.050000, 0.030000, 0.000000),
+                        vector3(-100.000000, 90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Dança Orgulho 9 (Cachorro Pequeno)',
+        Command = 'dancaocachorrop9',
+        Animation = 'idle_turn_0',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag9',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'prop_cs_sol_glasses',
+                    Placement = {
+                        vector3(0.050000, 0.030000, 0.000000),
+                        vector3(-100.000000, 90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Deitar (Cachorro Grande)',
+        Command = 'dcachorrog',
+        Animation = 'dead_left',
+        Dictionary = 'creatures@rottweiler@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Deitar 2 (Cachorro Grande)',
+        Command = 'dcachorro2',
+        Animation = 'dead_right',
+        Dictionary = 'creatures@rottweiler@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Dormir (Cachorro Grande)',
+        Command = 'cdormir',
+        Animation = 'sleep_in_kennel',
+        Dictionary = 'creatures@rottweiler@amb@sleep_in_kennel@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Hambúrguer (Cachorro Pequeno)',
+        Command = 'chamburger',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'prop_cs_burger_01',
+                    Placement = {
+                        vector3(0.150000, -0.040000, 0.000000),
+                        vector3(-90.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Implorar (Cachorro Grande)',
+        Command = 'icachorrog',
+        Animation = 'beg_loop',
+        Dictionary = 'creatures@rottweiler@tricks@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Implorar (Cachorro Grande)',
+        Command = 'icachorrog2',
+        Animation = 'paw_right_loop',
+        Dictionary = 'creatures@rottweiler@tricks@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Jogar Fora (Cachorro Grande)',
+        Command = 'jcachorrog',
+        Animation = 'dump_loop',
+        Dictionary = 'creatures@rottweiler@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 51826,
+                    Name = 'prop_big_shit_02',
+                    Placement = {
+                        vector3(0.000000, 0.200000, -0.460000),
+                        vector3(0.000000, -20.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+{
+        Label = 'Latido (Cachorro Grande)',
+        Command = 'lcachorrog',
+        Animation = 'idle_a',
+        Dictionary = 'creatures@rottweiler@amb@world_dog_barking@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Latido (Cachorro Pequeno)',
+        Command = 'lcachorropq',
+        Animation = 'idle_a',
+        Dictionary = 'creatures@pug@amb@world_dog_barking@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Microfone (Cachorro Pequeno)',
+        Command = 'microfonep',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'p_ing_microphonel_01',
+                    Placement = {
+                        vector3(0.150000, -0.017000, 0.030000),
+                        vector3(0.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Notas de Dolar (Cachorro Pequeno)',
+        Command = 'dolarcach',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'p_banknote_onedollar_s',
+                    Placement = {
+                        vector3(0.170000, -0.010000, 0.000000),
+                        vector3(90.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Notas De Dollar Amassadas (Cachorro Pequeno)',
+        Command = 'notasamassadasc',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'bkr_prop_scrunched_moneypage',
+                    Placement = {
+                        vector3(0.170000, 0.000000, 0.000000),
+                        vector3(90.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Orgulho A (Cachorro Pequeno)',
+        Command = 'oacachorrop',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag1',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Orgulho A Sentar (Cachorro Pequeno)',
+        Command = 'oasentarp',
+        Animation = 'idle_b',
+        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag1',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Orgulho B (Cachorro Pequeno)',
+        Command = 'obcachorrop',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag2',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Orgulho B Sentar (Cachorro Pequeno)',
+        Command = 'obsentarp',
+        Animation = 'idle_b',
+        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag2',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Orgulho C (Cachorro Pequeno)',
+        Command = 'occachorrop',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag3',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Orgulho C Sentar (Cachorro Pequeno)',
+        Command = 'ocsentarp',
+        Animation = 'idle_b',
+        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag3',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Orgulho D (Cachorro Pequeno)',
+        Command = 'odcachorrop',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag4',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Orgulho D Sentar (Cachorro Pequeno)',
+        Command = 'odsentarp',
+        Animation = 'idle_b',
+        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag4',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Orgulho E (Cachorro Pequeno)',
+        Command = 'oecachorrop',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag5',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Orgulho E Sentar (Cachorro Pequeno)',
+        Command = 'oesentarp',
+        Animation = 'idle_b',
+        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag5',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Orgulho F (Cachorro Pequeno)',
+        Command = 'ofcachorrop',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag6',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Orgulho F Sentar (Cachorro Pequeno)',
+        Command = 'ofsentarp',
+        Animation = 'idle_b',
+        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag6',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Orgulho G (Cachorro Pequeno)',
+        Command = 'ogcachorrop',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag6',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Orgulho G Sentar (Cachorro Pequeno)',
+        Command = 'ogsentarp',
+        Animation = 'idle_b',
+        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag7',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Orgulho H (Cachorro Pequeno)',
+        Command = 'ohcachorrop',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag7',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Orgulho H Sentar (Cachorro Pequeno)',
+        Command = 'ohsentarp',
+        Animation = 'idle_b',
+        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag8',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Orgulho I (Cachorro Pequeno)',
+        Command = 'oicachorrop',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag8',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Orgulho I Sentar (Cachorro Pequeno)',
+        Command = 'oisentarp',
+        Animation = 'idle_b',
+        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag9',
+                    Placement = {
+                        vector3(0.124000, -0.008000, 0.000000),
+                        vector3(0.000000, 0.000000, -74.699898),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Pilha de Dinheiro (Cachorro Pequeno)',
+        Command = 'pdinheiroc',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'bkr_prop_money_wrapped_01',
+                    Placement = {
+                        vector3(0.170000, -0.010000, 0.000000),
+                        vector3(90.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Raquete de Tenis (Cachorro Pequeno)',
+        Command = 'rtcachorro',
         Animation = 'nill',
         Dictionary = 'creatures@pug@move',
         Options = {
@@ -2001,5 +1473,533 @@ return {
             },
         },
         PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Rosa (Cachorro Pequeno)',
+        Command = 'rosacachorro',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 12844,
+                    Name = 'prop_single_rose',
+                    Placement = {
+                        vector3(0.109000, -0.014000, 0.050000),
+                        vector3(0.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Rosa Sentado (Cachorro Pequeno)',
+        Command = 'rscachorro',
+        Animation = 'idle_b',
+        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 12844,
+                    Name = 'prop_single_rose',
+                    Placement = {
+                        vector3(0.109000, -0.014000, 0.050000),
+                        vector3(0.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Sacodir (Cachorro Pequeno)',
+        Command = 'sacodircp',
+        Animation = 'idle_c',
+        Dictionary = 'creatures@pug@amb@world_dog_barking@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Sentar (big dog)',
+        Command = 'Sentar',
+        Animation = 'base',
+        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Sentar (Cachorro Pequeno)',
+        Command = 'scachorrop',
+        Animation = 'idle_b',
+        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Sentar - Aliado (Cachorro Grande)',
+        Command = 'scachorroali',
+        Animation = 'base',
+        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag9',
+                    Placement = {
+                        vector3(0.190000, 0.000000, -0.050000),
+                        vector3(100.000000, 90.000000, 0.000000),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag9',
+                    Placement = {
+                        vector3(0.194000, 0.020000, -0.050000),
+                        vector3(-90.000000, -90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Sentar - Assexual (Cachorro Grande)',
+        Command = 'scachorroa',
+        Animation = 'base',
+        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag8',
+                    Placement = {
+                        vector3(0.190000, 0.000000, -0.050000),
+                        vector3(100.000000, 90.000000, 0.000000),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag8',
+                    Placement = {
+                        vector3(0.194000, 0.020000, -0.050000),
+                        vector3(-90.000000, -90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Sentar - LGBTQIA (Cachorro Grande)',
+        Command = 'scachorrol',
+        Animation = 'base',
+        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag2',
+                    Placement = {
+                        vector3(0.190000, 0.000000, -0.050000),
+                        vector3(100.000000, 90.000000, 0.000000),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag2',
+                    Placement = {
+                        vector3(0.194000, 0.020000, -0.050000),
+                        vector3(-90.000000, -90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Sentar - Lésbico (Cachorro Grande)',
+        Command = 'scachorrole',
+        Animation = 'base',
+        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag4',
+                    Placement = {
+                        vector3(0.190000, 0.000000, -0.050000),
+                        vector3(100.000000, 90.000000, 0.000000),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag4',
+                    Placement = {
+                        vector3(0.194000, 0.020000, -0.050000),
+                        vector3(-90.000000, -90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Sentar - Não Binário (Cachorro Grande)',
+        Command = 'scachorron',
+        Animation = 'base',
+        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag7',
+                    Placement = {
+                        vector3(0.190000, 0.000000, -0.050000),
+                        vector3(100.000000, 90.000000, 0.000000),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag7',
+                    Placement = {
+                        vector3(0.194000, 0.020000, -0.050000),
+                        vector3(-90.000000, -90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Sentar - Pansexual (Cachorro Grande)',
+        Command = 'scachorrop',
+        Animation = 'base',
+        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag5',
+                    Placement = {
+                        vector3(0.190000, 0.000000, -0.050000),
+                        vector3(100.000000, 90.000000, 0.000000),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag5',
+                    Placement = {
+                        vector3(0.194000, 0.020000, -0.050000),
+                        vector3(-90.000000, -90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Sentar - Transgenero (Cachorro Grande)',
+        Command = 'scachorrot',
+        Animation = 'base',
+        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag6',
+                    Placement = {
+                        vector3(0.190000, 0.000000, -0.050000),
+                        vector3(100.000000, 90.000000, 0.000000),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag6',
+                    Placement = {
+                        vector3(0.194000, 0.020000, -0.050000),
+                        vector3(-90.000000, -90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Sentar Carro (Cachorro Grande)',
+        Command = 'schgrande',
+        Animation = 'sit',
+        Dictionary = 'creatures@rottweiler@incar@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Sentar- Bisexual (Cachorro Grande)',
+        Command = 'scachorrob',
+        Animation = 'base',
+        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag3',
+                    Placement = {
+                        vector3(0.190000, 0.000000, -0.050000),
+                        vector3(100.000000, 90.000000, 0.000000),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag3',
+                    Placement = {
+                        vector3(0.194000, 0.020000, -0.050000),
+                        vector3(-90.000000, -90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Sente-se (Cachorro Grande)',
+        Command = 'scachorrog',
+        Animation = 'base',
+        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@base',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag1',
+                    Placement = {
+                        vector3(0.190000, 0.000000, -0.050000),
+                        vector3(100.000000, 90.000000, 0.000000),
+                    },
+                },
+                {
+                    Bone = 31086,
+                    Name = 'lilprideflag1',
+                    Placement = {
+                        vector3(0.194000, 0.020000, -0.050000),
+                        vector3(-90.000000, -90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+        SocialMovement = true,
+    },
+    {
+        Label = 'Ursinho (Cachorro Pequeno)',
+        Command = 'uchpequeno',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'v_ilev_mr_rasberryclean',
+                    Placement = {
+                        vector3(0.150000, -0.110000, -0.230000),
+                        vector3(0.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Ursinho 2 (Cachorro Pequeno)',
+        Command = 'uchpequeno2',
+        Animation = 'idle_b',
+        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'v_ilev_mr_rasberryclean',
+                    Placement = {
+                        vector3(0.150000, -0.110000, -0.230000),
+                        vector3(0.000000, 0.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Xixi (Cachorro Pequeno)',
+        Command = 'xixipqn',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Ptfx = {
+                Asset = 'scr_amb_chop',
+                CanHold = true,
+                Name = 'ent_anim_dog_peeing',
+                Placement = {
+                    vector3(-0.010000, -0.170000, 0.090000),
+                    vector3(0.000000, 90.000000, 140.000000),
+                    1.0,
+                },
+                Wait = 3000,
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Xixi (cachorro)',
+        Command = 'xixic',
+        Animation = 'pee_left_idle',
+        Dictionary = 'creatures@rottweiler@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Ptfx = {
+                Asset = 'scr_amb_chop',
+                CanHold = true,
+                Name = 'ent_anim_dog_peeing',
+                Placement = {
+                    vector3(-0.150000, -0.350000, 0.000000),
+                    vector3(0.000000, 90.000000, 180.000000),
+                    1.0,
+                },
+                Wait = 3000,
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Xixi 2 (Cachorro Grande)',
+        Command = 'xixic2',
+        Animation = 'pee_right_idle',
+        Dictionary = 'creatures@rottweiler@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Ptfx = {
+                Asset = 'scr_amb_chop',
+                CanHold = true,
+                Name = 'ent_anim_dog_peeing',
+                Placement = {
+                    vector3(0.150000, -0.350000, 0.000000),
+                    vector3(0.000000, 90.000000, 0.000000),
+                    1.0,
+                },
+                Wait = 3000,
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Óculos (Cachorro Pequeno)',
+        Command = 'ocachorrop',
+        Animation = 'nill',
+        Dictionary = 'creatures@pug@move',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'prop_cs_sol_glasses',
+                    Placement = {
+                        vector3(0.050000, 0.030000, 0.000000),
+                        vector3(-100.000000, 90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
+    {
+        Label = 'Óculos Sentado (Cachorro Pequeno)',
+        Command = 'osentcachorrop',
+        Animation = 'idle_b',
+        Dictionary = 'creatures@pug@amb@world_dog_sitting@idle_a',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 31086,
+                    Name = 'prop_cs_sol_glasses',
+                    Placement = {
+                        vector3(0.050000, 0.030000, 0.000000),
+                        vector3(-100.000000, 90.000000, 0.000000),
+                    },
+                },
+            },
+        },
+        PedTypes = {'dogs', 'cats'},
+    },
     }
-}

@@ -1,7 +1,7 @@
 return {
-    {
-        Label = 'Boxing Dance Solo',
-        Command = 'boxdance',
+{
+        Label = 'Dancar',
+        Command = 'dancar',
         Animation = 'med_right_down',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@beach_boxing@',
         Options = {
@@ -11,8 +11,439 @@ return {
         },
     },
     {
-        Label = 'Dance',
-        Command = 'dance',
+        Label = 'Dancar 10',
+        Command = 'dancar10',
+        Animation = 'ld_girl_a_song_a_p2_f',
+        Dictionary = 'mini@strip_club@lap_dance@ld_girl_a_song_a_p2',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 100',
+        Command = 'dancar100',
+        Animation = 'med_center_down',
+        Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@techno_monkey@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 101',
+        Command = 'dancar101',
+        Animation = 'idle_a',
+        Dictionary = 'anim@mp_player_intuppersalsa_roll',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 102',
+        Command = 'dancar102',
+        Animation = 'salsa',
+        Dictionary = 'custom@salsa',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 103',
+        Command = 'dancar103',
+        Animation = 'dance_a_1st',
+        Dictionary = 'anim@arena@celeb@podium@no_prop@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 104',
+        Command = 'dancar104',
+        Animation = 'dance_b_1st',
+        Dictionary = 'anim@arena@celeb@podium@no_prop@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 105',
+        Command = 'dancar105',
+        Animation = 'sing_a_song_1',
+        Dictionary = 'jazzrockabillybluesetc_singer@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 106',
+        Command = 'dancar106',
+        Animation = 'sing_a_song_2',
+        Dictionary = 'jazzrockabillybluesetc_singer@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 107',
+        Command = 'dancar107',
+        Animation = 'sing_a_song_3',
+        Dictionary = 'jazzrockabillybluesetc_singer@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 108',
+        Command = 'dancar108',
+        Animation = 'sing_a_song_4',
+        Dictionary = 'jazzrockabillybluesetc_singer@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 109',
+        Command = 'dancar109',
+        Animation = 'sing_a_song_5',
+        Dictionary = 'jazzrockabillybluesetc_singer@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 11',
+        Command = 'dancar11',
+        Animation = 'ld_girl_a_song_a_p3_f',
+        Dictionary = 'mini@strip_club@lap_dance@ld_girl_a_song_a_p3',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 110',
+        Command = 'dancar110',
+        Animation = 'up_beat_1',
+        Dictionary = 'jazzrockabillybluesetc_singer@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 111',
+        Command = 'dancar111',
+        Animation = 'up_beat_2',
+        Dictionary = 'jazzrockabillybluesetc_singer@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 112',
+        Command = 'dancar112',
+        Animation = 'up_beat_3',
+        Dictionary = 'jazzrockabillybluesetc_singer@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 113',
+        Command = 'dancar113',
+        Animation = 'up_beat_4',
+        Dictionary = 'jazzrockabillybluesetc_singer@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 114',
+        Command = 'dancar114',
+        Animation = 'up_beat_5',
+        Dictionary = 'jazzrockabillybluesetc_singer@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 115',
+        Command = 'dancar115',
+        Animation = '001443_01_trvs_28_idle_stripper',
+        Dictionary = 'switch@trevor@mocks_lapdance',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 116',
+        Command = 'dancar116',
+        Animation = 'wave_dance_1',
+        Dictionary = 'dancing_wave_part_one@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 117',
+        Command = 'dancar117',
+        Animation = 'wave_dance_2',
+        Dictionary = 'dancing_wave_part_one@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 118',
+        Command = 'dancar118',
+        Animation = 'wave_dance_3',
+        Dictionary = 'dancing_wave_part_one@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 119',
+        Command = 'dancar119',
+        Animation = 'wave_dance_4',
+        Dictionary = 'dancing_wave_part_one@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 12',
+        Command = 'dancar12',
+        Animation = 'lap_dance_girl',
+        Dictionary = 'mp_safehouse',
+    },
+    {
+        Label = 'Dancar 120',
+        Command = 'dancar120',
+        Animation = 'tutankhamun_dance_1',
+        Dictionary = 'dancing_wave_part_one@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 121',
+        Command = 'dancar121',
+        Animation = 'tutankhamun_dance_2',
+        Dictionary = 'dancing_wave_part_one@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 122',
+        Command = 'dancar122',
+        Animation = 'snake_dance_1',
+        Dictionary = 'dancing_wave_part_one@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 123',
+        Command = 'dancar123',
+        Animation = 'slide_dance',
+        Dictionary = 'dancing_wave_part_one@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 124',
+        Command = 'dancar124',
+        Animation = 'slide_dance_2',
+        Dictionary = 'dancing_wave_part_one@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 125',
+        Command = 'dancar125',
+        Animation = 'robot_dance',
+        Dictionary = 'dancing_wave_part_one@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 126',
+        Command = 'dancar126',
+        Animation = 'locking_dance',
+        Dictionary = 'dancing_wave_part_one@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 127',
+        Command = 'dancar127',
+        Animation = 'headspin',
+        Dictionary = 'dancing_wave_part_one@anim',
+    },
+    {
+        Label = 'Dancar 128',
+        Command = 'dancar128',
+        Animation = 'flaire_dance',
+        Dictionary = 'dancing_wave_part_one@anim',
+    },
+    {
+        Label = 'Dancar 129',
+        Command = 'dancar129',
+        Animation = 'crowd_girl_dance',
+        Dictionary = 'dancing_wave_part_one@anim',
+    },
+    {
+        Label = 'Dancar 13',
+        Command = 'dancar13',
+        Animation = 'priv_dance_idle',
+        Dictionary = 'mini@strip_club@private_dance@idle',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 130',
+        Command = 'dancar130',
+        Animation = 'uprock_dance_1',
+        Dictionary = 'dancing_wave_part_one@anim',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 14',
+        Command = 'dancar14',
+        Animation = 'priv_dance_p1',
+        Dictionary = 'mini@strip_club@private_dance@part1',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 15',
+        Command = 'dancar15',
+        Animation = 'priv_dance_p2',
+        Dictionary = 'mini@strip_club@private_dance@part2',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 16',
+        Command = 'dancar16',
+        Animation = 'priv_dance_p3',
+        Dictionary = 'mini@strip_club@private_dance@part3',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 17',
+        Command = 'dancar17',
+        Animation = 'yacht_ld_f',
+        Dictionary = 'oddjobs@assassinate@multi@yachttarget@lapdance',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 18',
+        Command = 'dancar18',
+        Animation = 'ld_2g_p3_s2',
+        Dictionary = 'mini@strip_club@lap_dance_2g@ld_2g_p3',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 19',
+        Command = 'dancar19',
+        Animation = 'ld_2g_p2_s2',
+        Dictionary = 'mini@strip_club@lap_dance_2g@ld_2g_p2',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 2',
+        Command = 'dancar2',
         Animation = 'hi_dance_facedj_17_v2_male^5',
         Dictionary = 'anim@amb@nightclub@dancers@podium_dancers@',
         Options = {
@@ -22,10 +453,10 @@ return {
         },
     },
     {
-        Label = 'Dance 2',
-        Command = 'dance2',
-        Animation = 'high_center_down',
-        Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@male@var_b@',
+        Label = 'Dancar 20',
+        Command = 'dancar20',
+        Animation = 'ld_2g_p1_s2',
+        Dictionary = 'mini@strip_club@lap_dance_2g@ld_2g_p1',
         Options = {
             Flags = {
                 Loop = true,
@@ -33,206 +464,8 @@ return {
         },
     },
     {
-        Label = 'Dance 3',
-        Command = 'dance3',
-        Animation = 'high_center',
-        Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@male@var_a@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Dance 4',
-        Command = 'dance4',
-        Animation = 'high_center_up',
-        Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@male@var_b@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Dance 5',
-        Command = 'dance5',
-        Animation = 'med_center',
-        Dictionary = 'anim@amb@casino@mini@dance@dance_solo@female@var_a@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Dance 6',
-        Command = 'dance6',
-        Animation = 'dance_loop_tao',
-        Dictionary = 'misschinese2_crystalmazemcs1_cs',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Dance 7',
-        Command = 'dance7',
-        Animation = 'dance_loop_tao',
-        Dictionary = 'misschinese2_crystalmazemcs1_ig',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Dance 8',
-        Command = 'dance8',
-        Animation = 'dance_m_default',
-        Dictionary = 'missfbi3_sniping',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Dance 9',
-        Command = 'dance9',
-        Animation = 'med_center_up',
-        Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@female@var_a@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Dance Club',
-        Command = 'danceclub',
-        Animation = 'hi_idle_a_m03',
-        Dictionary = 'anim@amb@nightclub_island@dancers@beachdance@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Dance Club 2',
-        Command = 'danceclubb',
-        Animation = 'hi_idle_a_m05',
-        Dictionary = 'anim@amb@nightclub_island@dancers@beachdance@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Dance Club 3',
-        Command = 'danceclubc',
-        Animation = 'hi_idle_a_m02',
-        Dictionary = 'anim@amb@nightclub_island@dancers@beachdance@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Dance Club 4',
-        Command = 'danceclubd',
-        Animation = 'hi_idle_b_f01',
-        Dictionary = 'anim@amb@nightclub_island@dancers@beachdance@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Dance Club 5',
-        Command = 'danceclube',
-        Animation = 'hi_idle_a_f02',
-        Dictionary = 'anim@amb@nightclub_island@dancers@club@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Dance Club 6',
-        Command = 'danceclubf',
-        Animation = 'hi_idle_b_m03',
-        Dictionary = 'anim@amb@nightclub_island@dancers@club@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Dance Club 7',
-        Command = 'danceclubg',
-        Animation = 'hi_idle_d_f01',
-        Dictionary = 'anim@amb@nightclub_island@dancers@club@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Dance Club 8',
-        Command = 'danceclubh',
-        Animation = 'mi_dance_facedj_17_v2_male^4',
-        Dictionary = 'anim@amb@nightclub_island@dancers@crowddance_facedj@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Dance Club 9',
-        Command = 'danceclubi',
-        Animation = 'mi_dance_prop_13_v1_male^3',
-        Dictionary = 'anim@amb@nightclub_island@dancers@crowddance_single_props@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Dance Club 10',
-        Command = 'danceclubj',
-        Animation = 'mi_dance_crowd_13_v2_male^1',
-        Dictionary = 'anim@amb@nightclub_island@dancers@crowddance_groups@groupd@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Dance Club 11',
-        Command = 'danceclubk',
-        Animation = 'mi_dance_facedj_15_v2_male^4',
-        Dictionary = 'anim@amb@nightclub_island@dancers@crowddance_facedj@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Dance Club 12',
-        Command = 'danceclubl',
+        Label = 'Dancar 21',
+        Command = 'dancar21',
         Animation = 'high_center_up',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@female@var_a@',
         Options = {
@@ -242,8 +475,8 @@ return {
         },
     },
     {
-        Label = 'Dance Club 13',
-        Command = 'danceclubm',
+        Label = 'Dancar 22',
+        Command = 'dancar22',
         Animation = 'hi_dance_facedj_hu_15_v2_male^5',
         Dictionary = 'anim@amb@nightclub_island@dancers@crowddance_facedj@',
         Options = {
@@ -253,8 +486,8 @@ return {
         },
     },
     {
-        Label = 'Dance Club 14',
-        Command = 'danceclubn',
+        Label = 'Dancar 23',
+        Command = 'dancar23',
         Animation = 'hi_dance_facedj_hu_17_male^5',
         Dictionary = 'anim@amb@nightclub_island@dancers@crowddance_facedj@',
         Options = {
@@ -264,8 +497,8 @@ return {
         },
     },
     {
-        Label = 'Dance Club 15',
-        Command = 'danceclubo',
+        Label = 'Dancar 24',
+        Command = 'dancar24',
         Animation = 'high_center',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@shuffle@',
         Options = {
@@ -275,8 +508,8 @@ return {
         },
     },
     {
-        Label = 'Dance Club 16',
-        Command = 'danceclubp',
+        Label = 'Dancar 25',
+        Command = 'dancar25',
         Animation = 'high_left_down',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@shuffle@',
         Options = {
@@ -286,8 +519,8 @@ return {
         },
     },
     {
-        Label = 'Dance Crank Dat',
-        Command = 'dancecrankdat',
+        Label = 'Dancar 26',
+        Command = 'dancar26',
         Animation = 'high_right_up',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@shuffle@',
         Options = {
@@ -297,8 +530,8 @@ return {
         },
     },
     {
-        Label = 'Dance Crank Dat 2',
-        Command = 'dancecrankdat2',
+        Label = 'Dancar 27',
+        Command = 'dancar27',
         Animation = 'high_right_down',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@shuffle@',
         Options = {
@@ -308,8 +541,8 @@ return {
         },
     },
     {
-        Label = 'Dance Drink (Beer)',
-        Command = 'dancedrink',
+        Label = 'Dancar 28',
+        Command = 'dancar28',
         Animation = 'mi_idle_c_m01',
         Dictionary = 'anim@amb@nightclub_island@dancers@beachdanceprop@',
         Options = {
@@ -329,8 +562,8 @@ return {
         },
     },
     {
-        Label = 'Dance Drink 2 (Wine)',
-        Command = 'dancedrink2',
+        Label = 'Dancar 29',
+        Command = 'dancar29',
         Animation = 'mi_loop_f1',
         Dictionary = 'anim@amb@nightclub_island@dancers@beachdanceprop@',
         Options = {
@@ -350,8 +583,30 @@ return {
         },
     },
     {
-        Label = 'Dance Drink 3 (Whiskey)',
-        Command = 'dancedrink3',
+        Label = 'Dancar 3',
+        Command = 'dancar3',
+        Animation = 'high_center_down',
+        Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@male@var_b@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 3',
+        Command = 'dancar3',
+        Animation = 'high_center',
+        Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@male@var_a@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 30',
+        Command = 'dancar30',
         Animation = 'mi_loop_m04',
         Dictionary = 'anim@amb@nightclub_island@dancers@beachdanceprop@',
         Options = {
@@ -371,8 +626,8 @@ return {
         },
     },
     {
-        Label = 'Dance Drink 4 (Whiskey)',
-        Command = 'dancedrink4',
+        Label = 'Dancar 31',
+        Command = 'dancar31',
         Animation = 'mi_idle_b_m04',
         Dictionary = 'anim@amb@nightclub_island@dancers@beachdanceprops@male@',
         Options = {
@@ -392,8 +647,8 @@ return {
         },
     },
     {
-        Label = 'Dance Drink 5 (Wine)',
-        Command = 'dancedrink5',
+        Label = 'Dancar 32',
+        Command = 'dancar32',
         Animation = 'hi_dance_prop_09_v1_female^3',
         Dictionary = 'anim@amb@nightclub_island@dancers@crowddance_single_props@',
         Options = {
@@ -413,29 +668,8 @@ return {
         },
     },
     {
-        Label = 'Dance Drink 6 (Beer)',
-        Command = 'dancedrink6',
-        Animation = 'hi_dance_prop_09_v1_male^3',
-        Dictionary = 'anim@amb@nightclub_island@dancers@crowddance_single_props@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-            Props = {
-                {
-                    Bone = 28422,
-                    Name = 'prop_beer_logopen',
-                    Placement = {
-                        vector3(0.009000, 0.001000, -0.031000),
-                        vector3(180.000000, 180.000000, -69.989998),
-                    },
-                },
-            },
-        },
-    },
-    {
-        Label = 'Dance Drink 7 (Wine)',
-        Command = 'dancedrink7',
+        Label = 'Dancar 34',
+        Command = 'dancar34',
         Animation = 'hi_dance_prop_11_v1_female^3',
         Dictionary = 'anim@amb@nightclub_island@dancers@crowddance_single_props@',
         Options = {
@@ -455,8 +689,8 @@ return {
         },
     },
     {
-        Label = 'Dance Drink 8 (Wine)',
-        Command = 'dancedrink8',
+        Label = 'Dancar 35',
+        Command = 'dancar35',
         Animation = 'hi_dance_prop_11_v1_female^1',
         Dictionary = 'anim@amb@nightclub_island@dancers@crowddance_single_props@',
         Options = {
@@ -476,8 +710,8 @@ return {
         },
     },
     {
-        Label = 'Dance F',
-        Command = 'dancef',
+        Label = 'Dancar 36',
+        Command = 'dancar36',
         Animation = 'mi_dance_facedj_17_v1_female^1',
         Dictionary = 'anim@amb@nightclub@dancers@solomun_entourage@',
         Options = {
@@ -487,8 +721,8 @@ return {
         },
     },
     {
-        Label = 'Dance F2',
-        Command = 'dancef2',
+        Label = 'Dancar 37',
+        Command = 'dancar37',
         Animation = 'high_center',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@female@var_a@',
         Options = {
@@ -498,8 +732,8 @@ return {
         },
     },
     {
-        Label = 'Dance F3',
-        Command = 'dancef3',
+        Label = 'Dancar 38',
+        Command = 'dancar38',
         Animation = 'high_center_up',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@female@var_a@',
         Options = {
@@ -509,8 +743,8 @@ return {
         },
     },
     {
-        Label = 'Dance F4',
-        Command = 'dancef4',
+        Label = 'Dancar 39',
+        Command = 'dancar39',
         Animation = 'hi_dance_facedj_09_v2_female^1',
         Dictionary = 'anim@amb@nightclub@dancers@crowddance_facedj@hi_intensity',
         Options = {
@@ -520,8 +754,19 @@ return {
         },
     },
     {
-        Label = 'Dance F5',
-        Command = 'dancef5',
+        Label = 'Dancar 4',
+        Command = 'dancar4',
+        Animation = 'high_center_up',
+        Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@male@var_b@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 40',
+        Command = 'dancar40',
         Animation = 'hi_dance_facedj_09_v2_female^3',
         Dictionary = 'anim@amb@nightclub@dancers@crowddance_facedj@hi_intensity',
         Options = {
@@ -531,8 +776,8 @@ return {
         },
     },
     {
-        Label = 'Dance F6',
-        Command = 'dancef6',
+        Label = 'Dancar 41',
+        Command = 'dancar41',
         Animation = 'high_center_up',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@female@var_a@',
         Options = {
@@ -542,8 +787,8 @@ return {
         },
     },
     {
-        Label = 'Dance Glowsticks',
-        Command = 'danceglowstick',
+        Label = 'Dancar 42',
+        Command = 'dancar42',
         Animation = 'ambclub_13_mi_hi_sexualgriding_laz',
         Dictionary = 'anim@amb@nightclub@lazlow@hi_railing@',
         Options = {
@@ -572,8 +817,8 @@ return {
         },
     },
     {
-        Label = 'Dance Glowsticks 2',
-        Command = 'danceglowstick2',
+        Label = 'Dancar 43',
+        Command = 'dancar43',
         Animation = 'ambclub_12_mi_hi_bootyshake_laz',
         Dictionary = 'anim@amb@nightclub@lazlow@hi_railing@',
         Options = {
@@ -601,8 +846,8 @@ return {
         },
     },
     {
-        Label = 'Dance Glowsticks 3',
-        Command = 'danceglowstick3',
+        Label = 'Dancar 44',
+        Command = 'dancar44',
         Animation = 'ambclub_09_mi_hi_bellydancer_laz',
         Dictionary = 'anim@amb@nightclub@lazlow@hi_railing@',
         Options = {
@@ -630,8 +875,8 @@ return {
         },
     },
     {
-        Label = 'Fortnite - Downward',
-        Command = 'fortnite',
+        Label = 'Dancar 45',
+        Command = 'dancar45',
         Animation = 'Downward_fortnite',
         Dictionary = 'custom@downward_fortnite',
         Options = {
@@ -641,8 +886,8 @@ return {
         },
     },
     {
-        Label = 'Fortnite - Pullup',
-        Command = 'fortnite2',
+        Label = 'Dancar 46',
+        Command = 'dancar46',
         Animation = 'pullup',
         Dictionary = 'custom@pullup',
         Options = {
@@ -652,8 +897,8 @@ return {
         },
     },
     {
-        Label = 'Fortnite - Rollie',
-        Command = 'fortnite3',
+        Label = 'Dancar 47',
+        Command = 'dancar47',
         Animation = 'rollie',
         Dictionary = 'custom@rollie',
         Options = {
@@ -663,8 +908,8 @@ return {
         },
     },
     {
-        Label = 'Fortnite - Wanna See Me',
-        Command = 'fortnite4',
+        Label = 'Dancar 48',
+        Command = 'dancar48',
         Animation = 'wanna_see_me',
         Dictionary = 'custom@wanna_see_me',
         Options = {
@@ -674,8 +919,8 @@ return {
         },
     },
     {
-        Label = 'Fortnite - Billy Bounce',
-        Command = 'fortnite5',
+        Label = 'Dancar 49',
+        Command = 'dancar49',
         Animation = 'billybounce',
         Dictionary = 'custom@billybounce',
         Options = {
@@ -685,8 +930,19 @@ return {
         },
     },
     {
-        Label = 'Gangnam Style',
-        Command = 'gangnamstyle',
+        Label = 'Dancar 5',
+        Command = 'dancar5',
+        Animation = 'med_center',
+        Dictionary = 'anim@amb@casino@mini@dance@dance_solo@female@var_a@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 50',
+        Command = 'dancar50',
         Animation = 'gangnamstyle',
         Dictionary = 'custom@gangnamstyle',
         Options = {
@@ -696,8 +952,8 @@ return {
         },
     },
     {
-        Label = 'Hip Hop Dance',
-        Command = 'dancehiphop',
+        Label = 'Dancar 51',
+        Command = 'dancar51',
         Animation = 'ped_a_dance_idle',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_paired@dance_d@',
         Options = {
@@ -707,8 +963,8 @@ return {
         },
     },
     {
-        Label = 'Hip Hop Dance 2',
-        Command = 'dancehiphop2',
+        Label = 'Dancar 52',
+        Command = 'dancar52',
         Animation = 'ped_a_dance_idle',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_paired@dance_b@',
         Options = {
@@ -718,8 +974,8 @@ return {
         },
     },
     {
-        Label = 'Hip Hop Dance 3',
-        Command = 'dancehiphop3',
+        Label = 'Dancar 53',
+        Command = 'dancar53',
         Animation = 'ped_a_dance_idle',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_paired@dance_a@',
         Options = {
@@ -729,8 +985,8 @@ return {
         },
     },
     {
-        Label = 'Dance Horse',
-        Command = 'dancehorse',
+        Label = 'Dancar 54',
+        Command = 'dancar54',
         Animation = 'dancecrowd_li_15_handup_laz',
         Dictionary = 'anim@amb@nightclub@lazlow@hi_dancefloor@',
         Options = {
@@ -751,8 +1007,8 @@ return {
         },
     },
     {
-        Label = 'Dance Horse 2',
-        Command = 'dancehorse2',
+        Label = 'Dancar 55',
+        Command = 'dancar55',
         Animation = 'crowddance_hi_11_handup_laz',
         Dictionary = 'anim@amb@nightclub@lazlow@hi_dancefloor@',
         Options = {
@@ -772,8 +1028,8 @@ return {
         },
     },
     {
-        Label = 'Dance Horse 3',
-        Command = 'dancehorse3',
+        Label = 'Dancar 56',
+        Command = 'dancar56',
         Animation = 'dancecrowd_li_11_hu_shimmy_laz',
         Dictionary = 'anim@amb@nightclub@lazlow@hi_dancefloor@',
         Options = {
@@ -793,8 +1049,8 @@ return {
         },
     },
     {
-        Label = 'Dance - MJ Thriller',
-        Command = 'dancethriller',
+        Label = 'Dancar 57',
+        Command = 'dancar57 ',
         Animation = 'mj_thriller_dance',
         Dictionary = 'mj_thriller',
         Options = {
@@ -804,8 +1060,8 @@ return {
         },
     },
     {
-        Label = 'Dance Old',
-        Command = 'danceold',
+        Label = 'Dancar 58',
+        Command = 'dancar58',
         Animation = 'idle_a',
         Dictionary = 'anim@mp_player_intupperuncle_disco',
         Options = {
@@ -815,8 +1071,8 @@ return {
         },
     },
     {
-        Label = 'Dance Pride A',
-        Command = 'dancepride',
+        Label = 'Dancar 59',
+        Command = 'dancar59',
         Animation = 'ambclub_09_mi_hi_bellydancer_laz',
         Dictionary = 'anim@amb@nightclub@lazlow@hi_railing@',
         Options = {
@@ -845,8 +1101,19 @@ return {
         SocialMovement = true,
     },
     {
-        Label = 'Dance Pride A - Bisexual',
-        Command = 'dancepridea',
+        Label = 'Dancar 6',
+        Command = 'dancar6',
+        Animation = 'dance_loop_tao',
+        Dictionary = 'misschinese2_crystalmazemcs1_cs',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 60',
+        Command = 'dancar60',
         Animation = 'ambclub_09_mi_hi_bellydancer_laz',
         Dictionary = 'anim@amb@nightclub@lazlow@hi_railing@',
         Options = {
@@ -875,8 +1142,8 @@ return {
         SocialMovement = true,
     },
     {
-        Label = 'Dance Pride B - LGBTQIA',
-        Command = 'danceprideb',
+        Label = 'Dancar 61',
+        Command = 'dancar61',
         Animation = 'ambclub_09_mi_hi_bellydancer_laz',
         Dictionary = 'anim@amb@nightclub@lazlow@hi_railing@',
         Options = {
@@ -905,8 +1172,8 @@ return {
         SocialMovement = true,
     },
     {
-        Label = 'Dance Pride C - Lesbian',
-        Command = 'dancepridec',
+        Label = 'Dancar 62',
+        Command = 'dancar62',
         Animation = 'ambclub_09_mi_hi_bellydancer_laz',
         Dictionary = 'anim@amb@nightclub@lazlow@hi_railing@',
         Options = {
@@ -935,8 +1202,8 @@ return {
         SocialMovement = true,
     },
     {
-        Label = 'Dance Pride D - Pansexual',
-        Command = 'danceprided',
+        Label = 'Dancar 63',
+        Command = 'dancar63',
         Animation = 'ambclub_09_mi_hi_bellydancer_laz',
         Dictionary = 'anim@amb@nightclub@lazlow@hi_railing@',
         Options = {
@@ -965,8 +1232,8 @@ return {
         SocialMovement = true,
     },
     {
-        Label = 'Dance Pride E - Transgender',
-        Command = 'dancepridee',
+        Label = 'Dancar 64',
+        Command = 'dancar64',
         Animation = 'ambclub_09_mi_hi_bellydancer_laz',
         Dictionary = 'anim@amb@nightclub@lazlow@hi_railing@',
         Options = {
@@ -995,8 +1262,8 @@ return {
         SocialMovement = true,
     },
     {
-        Label = 'Dance Pride F - Non Binary',
-        Command = 'dancepridef',
+        Label = 'Dancar 65',
+        Command = 'dancar65',
         Animation = 'ambclub_09_mi_hi_bellydancer_laz',
         Dictionary = 'anim@amb@nightclub@lazlow@hi_railing@',
         Options = {
@@ -1025,8 +1292,8 @@ return {
         SocialMovement = true,
     },
     {
-        Label = 'Dance Pride G - Asexual',
-        Command = 'danceprideg',
+        Label = 'Dancar 66',
+        Command = 'dancar66',
         Animation = 'ambclub_09_mi_hi_bellydancer_laz',
         Dictionary = 'anim@amb@nightclub@lazlow@hi_railing@',
         Options = {
@@ -1055,8 +1322,8 @@ return {
         SocialMovement = true,
     },
     {
-        Label = 'Dance Pride H - Straight Ally',
-        Command = 'danceprideh',
+        Label = 'Dancar 67',
+        Command = 'dancar67',
         Animation = 'ambclub_09_mi_hi_bellydancer_laz',
         Dictionary = 'anim@amb@nightclub@lazlow@hi_railing@',
         Options = {
@@ -1085,8 +1352,8 @@ return {
         SocialMovement = true,
     },
     {
-        Label = 'Dance Shy',
-        Command = 'danceshy',
+        Label = 'Dancar 68',
+        Command = 'dancar68',
         Animation = 'low_center',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@male@var_a@',
         Options = {
@@ -1096,8 +1363,8 @@ return {
         },
     },
     {
-        Label = 'Dance Shy 2',
-        Command = 'danceshy2',
+        Label = 'Dancar 69',
+        Command = 'dancar69',
         Animation = 'low_center_down',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@female@var_b@',
         Options = {
@@ -1107,8 +1374,19 @@ return {
         },
     },
     {
-        Label = 'Dance Silly',
-        Command = 'dancesilly',
+        Label = 'Dancar 7',
+        Command = 'dancar7',
+        Animation = 'dance_loop_tao',
+        Dictionary = 'misschinese2_crystalmazemcs1_ig',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 70',
+        Command = 'dancar70',
         Animation = 'mnt_dnc_buttwag',
         Dictionary = 'special_ped@mountain_dancer@monologue_3@monologue_3a',
         Options = {
@@ -1118,8 +1396,8 @@ return {
         },
     },
     {
-        Label = 'Dance Silly 1',
-        Command = 'dancesilly1',
+        Label = 'Dancar 71',
+        Command = 'dancar71',
         Animation = 'dance_loop_tyler',
         Dictionary = 'rcmnigel1bnmt_1b',
         Options = {
@@ -1129,8 +1407,8 @@ return {
         },
     },
     {
-        Label = 'Dance Silly 2',
-        Command = 'dancesilly2',
+        Label = 'Dancar 72',
+        Command = 'dancar72',
         Animation = 'fidget_short_dance',
         Dictionary = 'move_clown@p_m_zero_idles@',
         Options = {
@@ -1140,8 +1418,8 @@ return {
         },
     },
     {
-        Label = 'Dance Silly 3',
-        Command = 'dancesilly3',
+        Label = 'Dancar 73',
+        Command = 'dancar73',
         Animation = 'fidget_short_dance',
         Dictionary = 'move_clown@p_m_two_idles@',
         Options = {
@@ -1151,8 +1429,8 @@ return {
         },
     },
     {
-        Label = 'Dance Silly 4',
-        Command = 'dancesilly4',
+        Label = 'Dancar 74',
+        Command = 'dancar74',
         Animation = 'danceidle_hi_11_buttwiggle_b_laz',
         Dictionary = 'anim@amb@nightclub@lazlow@hi_podium@',
         Options = {
@@ -1162,8 +1440,8 @@ return {
         },
     },
     {
-        Label = 'Dance Silly 5',
-        Command = 'dancesilly5',
+        Label = 'Dancar 75',
+        Command = 'dancar75',
         Animation = 'idle_a',
         Dictionary = 'timetable@tracy@ig_5@idle_a',
         Options = {
@@ -1173,8 +1451,8 @@ return {
         },
     },
     {
-        Label = 'Dance Silly 6',
-        Command = 'dancesilly6',
+        Label = 'Dancar 76',
+        Command = 'dancar76',
         Animation = 'idle_d',
         Dictionary = 'timetable@tracy@ig_8@idle_b',
         Options = {
@@ -1184,8 +1462,8 @@ return {
         },
     },
     {
-        Label = 'Dance Silly 7',
-        Command = 'dancesilly7',
+        Label = 'Dancar 77',
+        Command = 'dancar77',
         Animation = 'med_center',
         Dictionary = 'anim@amb@casino@mini@dance@dance_solo@female@var_b@',
         Options = {
@@ -1195,8 +1473,8 @@ return {
         },
     },
     {
-        Label = 'Dance Silly 8',
-        Command = 'dancesilly8',
+        Label = 'Dancar 78',
+        Command = 'dancar78',
         Animation = 'high_center',
         Dictionary = 'anim@amb@casino@mini@dance@dance_solo@female@var_b@',
         Options = {
@@ -1206,8 +1484,8 @@ return {
         },
     },
     {
-        Label = 'Dance Silly 9',
-        Command = 'dancesilly9',
+        Label = 'Dancar 79',
+        Command = 'dancar79',
         Animation = 'the_woogie',
         Dictionary = 'anim@mp_player_intcelebrationfemale@the_woogie',
         Options = {
@@ -1217,8 +1495,19 @@ return {
         },
     },
     {
-        Label = 'Dance Slow',
-        Command = 'danceslow',
+        Label = 'Dancar 8',
+        Command = 'dancar8',
+        Animation = 'dance_m_default',
+        Dictionary = 'missfbi3_sniping',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 80',
+        Command = 'dancar80',
         Animation = 'low_center',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@male@var_b@',
         Options = {
@@ -1228,8 +1517,8 @@ return {
         },
     },
     {
-        Label = 'Dance Slow 2',
-        Command = 'danceslow2',
+        Label = 'Dancar 81',
+        Command = 'dancar81',
         Animation = 'low_center',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@female@var_a@',
         Options = {
@@ -1239,8 +1528,8 @@ return {
         },
     },
     {
-        Label = 'Dance Slow 3',
-        Command = 'danceslow3',
+        Label = 'Dancar 82',
+        Command = 'dancar82',
         Animation = 'low_center_down',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@female@var_a@',
         Options = {
@@ -1250,8 +1539,8 @@ return {
         },
     },
     {
-        Label = 'Dance Slow 4',
-        Command = 'danceslow4',
+        Label = 'Dancar 83',
+        Command = 'dancar83',
         Animation = 'low_center',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@female@var_b@',
         Options = {
@@ -1261,8 +1550,8 @@ return {
         },
     },
     {
-        Label = 'Dance Upper',
-        Command = 'danceupper',
+        Label = 'Dancar 84',
+        Command = 'dancar84',
         Animation = 'high_center',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@female@var_b@',
         Options = {
@@ -1273,14 +1562,211 @@ return {
         },
     },
     {
-        Label = 'Dance Upper 2',
-        Command = 'danceupper2',
+        Label = 'Dancar 85',
+        Command = 'dancar85',
         Animation = 'high_center_up',
         Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@female@var_b@',
         Options = {
             Flags = {
                 Loop = true,
                 Move = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 86',
+        Command = 'dancar86',
+        Animation = 'hi_idle_a_m03',
+        Dictionary = 'anim@amb@nightclub_island@dancers@beachdance@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 86',
+        Command = 'dancar86',
+        Animation = 'ld_girl_a_song_a_p1_f',
+        Dictionary = 'mini@strip_club@lap_dance@ld_girl_a_song_a_p1',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 87',
+        Command = 'dancar87',
+        Animation = 'hi_idle_a_m05',
+        Dictionary = 'anim@amb@nightclub_island@dancers@beachdance@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 88',
+        Command = 'dancar88',
+        Animation = 'hi_idle_a_m02',
+        Dictionary = 'anim@amb@nightclub_island@dancers@beachdance@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 89',
+        Command = 'dancar89',
+        Animation = 'hi_idle_b_f01',
+        Dictionary = 'anim@amb@nightclub_island@dancers@beachdance@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 9',
+        Command = 'dancar9',
+        Animation = 'med_center_up',
+        Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@female@var_a@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 90',
+        Command = 'dancar90',
+        Animation = 'hi_idle_a_f02',
+        Dictionary = 'anim@amb@nightclub_island@dancers@club@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 91',
+        Command = 'dancar91',
+        Animation = 'hi_idle_b_m03',
+        Dictionary = 'anim@amb@nightclub_island@dancers@club@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 92',
+        Command = 'dancar92',
+        Animation = 'hi_idle_d_f01',
+        Dictionary = 'anim@amb@nightclub_island@dancers@club@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 93',
+        Command = 'dancar93',
+        Animation = 'mi_dance_facedj_17_v2_male^4',
+        Dictionary = 'anim@amb@nightclub_island@dancers@crowddance_facedj@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 94',
+        Command = 'dancar94',
+        Animation = 'mi_dance_prop_13_v1_male^3',
+        Dictionary = 'anim@amb@nightclub_island@dancers@crowddance_single_props@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 95',
+        Command = 'dancar95',
+        Animation = 'mi_dance_crowd_13_v2_male^1',
+        Dictionary = 'anim@amb@nightclub_island@dancers@crowddance_groups@groupd@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 96',
+        Command = 'dancar96',
+        Animation = 'mi_dance_facedj_15_v2_male^4',
+        Dictionary = 'anim@amb@nightclub_island@dancers@crowddance_facedj@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 97',
+        Command = 'dancar97',
+        Animation = 'makarena',
+        Dictionary = 'custom@makarena',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 98',
+        Command = 'dancar98',
+        Animation = 'high_center',
+        Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@techno_monkey@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar 99',
+        Command = 'dancar99',
+        Animation = 'high_center_down',
+        Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@techno_monkey@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+        },
+    },
+    {
+        Label = 'Dancar33',
+        Command = 'dancar33',
+        Animation = 'hi_dance_prop_09_v1_male^3',
+        Dictionary = 'anim@amb@nightclub_island@dancers@crowddance_single_props@',
+        Options = {
+            Flags = {
+                Loop = true,
+            },
+            Props = {
+                {
+                    Bone = 28422,
+                    Name = 'prop_beer_logopen',
+                    Placement = {
+                        vector3(0.009000, 0.001000, -0.031000),
+                        vector3(180.000000, 180.000000, -69.989998),
+                    },
+                },
             },
         },
     },
@@ -1297,9 +1783,9 @@ return {
         },
     },
     {
-        Label = 'DJ 1',
-        Command = 'dj1',
-        Animation = 'dixn_end_dix',
+        Label = 'DJ 10',
+        Command = 'dj10',
+        Animation = 'dixn_sync_cntr_j_dix',
         Dictionary = 'anim@amb@nightclub@djs@dixon@',
         Options = {
             Flags = {
@@ -1310,8 +1796,8 @@ return {
     {
         Label = 'DJ 2',
         Command = 'dj2',
-        Animation = 'sol_idle_ctr_mid_a_sol',
-        Dictionary = 'anim@amb@nightclub@djs@solomun@',
+        Animation = 'dixn_end_dix',
+        Dictionary = 'anim@amb@nightclub@djs@dixon@',
         Options = {
             Flags = {
                 Loop = true,
@@ -1321,7 +1807,7 @@ return {
     {
         Label = 'DJ 3',
         Command = 'dj3',
-        Animation = 'sol_dance_l_sol',
+        Animation = 'sol_idle_ctr_mid_a_sol',
         Dictionary = 'anim@amb@nightclub@djs@solomun@',
         Options = {
             Flags = {
@@ -1332,8 +1818,8 @@ return {
     {
         Label = 'DJ 4',
         Command = 'dj4',
-        Animation = 'dance_b_idle_a_blamadon',
-        Dictionary = 'anim@amb@nightclub@djs@black_madonna@',
+        Animation = 'sol_dance_l_sol',
+        Dictionary = 'anim@amb@nightclub@djs@solomun@',
         Options = {
             Flags = {
                 Loop = true,
@@ -1343,8 +1829,8 @@ return {
     {
         Label = 'DJ 5',
         Command = 'dj5',
-        Animation = 'dixn_idle_cntr_a_dix',
-        Dictionary = 'anim@amb@nightclub@djs@dixon@',
+        Animation = 'dance_b_idle_a_blamadon',
+        Dictionary = 'anim@amb@nightclub@djs@black_madonna@',
         Options = {
             Flags = {
                 Loop = true,
@@ -1354,7 +1840,7 @@ return {
     {
         Label = 'DJ 6',
         Command = 'dj6',
-        Animation = 'dixn_idle_cntr_b_dix',
+        Animation = 'dixn_idle_cntr_a_dix',
         Dictionary = 'anim@amb@nightclub@djs@dixon@',
         Options = {
             Flags = {
@@ -1365,7 +1851,7 @@ return {
     {
         Label = 'DJ 7',
         Command = 'dj7',
-        Animation = 'dixn_idle_cntr_g_dix',
+        Animation = 'dixn_idle_cntr_b_dix',
         Dictionary = 'anim@amb@nightclub@djs@dixon@',
         Options = {
             Flags = {
@@ -1376,7 +1862,7 @@ return {
     {
         Label = 'DJ 8',
         Command = 'dj8',
-        Animation = 'dixn_idle_cntr_gb_dix',
+        Animation = 'dixn_idle_cntr_g_dix',
         Dictionary = 'anim@amb@nightclub@djs@dixon@',
         Options = {
             Flags = {
@@ -1387,7 +1873,7 @@ return {
     {
         Label = 'DJ 9',
         Command = 'dj9',
-        Animation = 'dixn_sync_cntr_j_dix',
+        Animation = 'dixn_idle_cntr_gb_dix',
         Dictionary = 'anim@amb@nightclub@djs@dixon@',
         Options = {
             Flags = {
@@ -1395,491 +1881,4 @@ return {
             },
         },
     },
-    {
-        Label = 'Lap Chair',
-        Command = 'lapchair',
-        Animation = 'ld_girl_a_song_a_p1_f',
-        Dictionary = 'mini@strip_club@lap_dance@ld_girl_a_song_a_p1',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Lap Chair2',
-        Command = 'lapchair2',
-        Animation = 'ld_girl_a_song_a_p2_f',
-        Dictionary = 'mini@strip_club@lap_dance@ld_girl_a_song_a_p2',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Lap Chair3',
-        Command = 'lapchair3',
-        Animation = 'ld_girl_a_song_a_p3_f',
-        Dictionary = 'mini@strip_club@lap_dance@ld_girl_a_song_a_p3',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Lapdance',
-        Command = 'lapdance',
-        Animation = 'lap_dance_girl',
-        Dictionary = 'mp_safehouse',
-    },
-    {
-        Label = 'Lapdance 2',
-        Command = 'lapdance2',
-        Animation = 'priv_dance_idle',
-        Dictionary = 'mini@strip_club@private_dance@idle',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Lapdance 3',
-        Command = 'lapdance3',
-        Animation = 'priv_dance_p1',
-        Dictionary = 'mini@strip_club@private_dance@part1',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Lapdance 4',
-        Command = 'lapdance4',
-        Animation = 'priv_dance_p2',
-        Dictionary = 'mini@strip_club@private_dance@part2',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Lapdance 5',
-        Command = 'lapdance5',
-        Animation = 'priv_dance_p3',
-        Dictionary = 'mini@strip_club@private_dance@part3',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Lapdance 6',
-        Command = 'lapdance6',
-        Animation = 'yacht_ld_f',
-        Dictionary = 'oddjobs@assassinate@multi@yachttarget@lapdance',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Lapdance With',
-        Command = 'lapdancewith',
-        Animation = 'ld_2g_p3_s2',
-        Dictionary = 'mini@strip_club@lap_dance_2g@ld_2g_p3',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Lapdance With2',
-        Command = 'lapdancewith2',
-        Animation = 'ld_2g_p2_s2',
-        Dictionary = 'mini@strip_club@lap_dance_2g@ld_2g_p2',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Lapdance With3',
-        Command = 'lapdancewith3',
-        Animation = 'ld_2g_p1_s2',
-        Dictionary = 'mini@strip_club@lap_dance_2g@ld_2g_p1',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Makarena',
-        Command = 'makarena',
-        Animation = 'makarena',
-        Dictionary = 'custom@makarena',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Monkey Dance',
-        Command = 'dancemonkey',
-        Animation = 'high_center',
-        Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@techno_monkey@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Monkey Dance 2',
-        Command = 'dancemonkey2',
-        Animation = 'high_center_down',
-        Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@techno_monkey@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Monkey Dance 3',
-        Command = 'dancemonkey3',
-        Animation = 'med_center_down',
-        Dictionary = 'anim@amb@nightclub@mini@dance@dance_solo@techno_monkey@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Salsa',
-        Command = 'salsa',
-        Animation = 'idle_a',
-        Dictionary = 'anim@mp_player_intuppersalsa_roll',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Salsa 2',
-        Command = 'salsa2',
-        Animation = 'salsa',
-        Dictionary = 'custom@salsa',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Short Dance',
-        Command = 'shortdance',
-        Animation = 'dance_a_1st',
-        Dictionary = 'anim@arena@celeb@podium@no_prop@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Short Dance 2',
-        Command = 'shortdance2',
-        Animation = 'dance_b_1st',
-        Dictionary = 'anim@arena@celeb@podium@no_prop@',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Singer',
-        Command = 'singer',
-        Animation = 'sing_a_song_1',
-        Dictionary = 'jazzrockabillybluesetc_singer@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Singer 2',
-        Command = 'singer2',
-        Animation = 'sing_a_song_2',
-        Dictionary = 'jazzrockabillybluesetc_singer@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Singer 3',
-        Command = 'singer3',
-        Animation = 'sing_a_song_3',
-        Dictionary = 'jazzrockabillybluesetc_singer@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Singer 4',
-        Command = 'singer4',
-        Animation = 'sing_a_song_4',
-        Dictionary = 'jazzrockabillybluesetc_singer@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Singer 5',
-        Command = 'singer5',
-        Animation = 'sing_a_song_5',
-        Dictionary = 'jazzrockabillybluesetc_singer@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Singer 6',
-        Command = 'singer6',
-        Animation = 'up_beat_1',
-        Dictionary = 'jazzrockabillybluesetc_singer@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Singer 7',
-        Command = 'singer7',
-        Animation = 'up_beat_2',
-        Dictionary = 'jazzrockabillybluesetc_singer@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Singer 8',
-        Command = 'singer8',
-        Animation = 'up_beat_3',
-        Dictionary = 'jazzrockabillybluesetc_singer@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Singer 9',
-        Command = 'singer9',
-        Animation = 'up_beat_4',
-        Dictionary = 'jazzrockabillybluesetc_singer@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Singer 10',
-        Command = 'singer10',
-        Animation = 'up_beat_5',
-        Dictionary = 'jazzrockabillybluesetc_singer@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Twerk',
-        Command = 'twerk',
-        Animation = '001443_01_trvs_28_idle_stripper',
-        Dictionary = 'switch@trevor@mocks_lapdance',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Wave Dance',
-        Command = 'dancewave',
-        Animation = 'wave_dance_1',
-        Dictionary = 'dancing_wave_part_one@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Wave Dance 2',
-        Command = 'dancewave02',
-        Animation = 'wave_dance_2',
-        Dictionary = 'dancing_wave_part_one@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Wave Dance 3',
-        Command = 'dancewave03',
-        Animation = 'wave_dance_3',
-        Dictionary = 'dancing_wave_part_one@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Wave Dance 4',
-        Command = 'dancewave04',
-        Animation = 'wave_dance_4',
-        Dictionary = 'dancing_wave_part_one@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Wave Dance 5 - Tutankhamen',
-        Command = 'dancewave05',
-        Animation = 'tutankhamun_dance_1',
-        Dictionary = 'dancing_wave_part_one@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Wave Dance 6 - Tutankhamen 2',
-        Command = 'dancewave06',
-        Animation = 'tutankhamun_dance_2',
-        Dictionary = 'dancing_wave_part_one@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Wave Dance 7 - Snake Dance',
-        Command = 'dancewave07',
-        Animation = 'snake_dance_1',
-        Dictionary = 'dancing_wave_part_one@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Wave Dance 8 - Slide Dance',
-        Command = 'dancewave08',
-        Animation = 'slide_dance',
-        Dictionary = 'dancing_wave_part_one@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Wave Dance 9 - Slide Dance 2',
-        Command = 'dancewave09',
-        Animation = 'slide_dance_2',
-        Dictionary = 'dancing_wave_part_one@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Wave Dance 10 - Robot Dance',
-        Command = 'dancewave10',
-        Animation = 'robot_dance',
-        Dictionary = 'dancing_wave_part_one@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Wave Dance 11 - Locking Dance',
-        Command = 'dancewave11',
-        Animation = 'locking_dance',
-        Dictionary = 'dancing_wave_part_one@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-    {
-        Label = 'Wave Dance 12 - Headspin',
-        Command = 'dancewave12',
-        Animation = 'headspin',
-        Dictionary = 'dancing_wave_part_one@anim',
-    },
-    {
-        Label = 'Wave Dance 13 - Flaire Dance',
-        Command = 'dancewave13',
-        Animation = 'flaire_dance',
-        Dictionary = 'dancing_wave_part_one@anim',
-    },
-    {
-        Label = 'Wave Dance 14 - Female Crowd Dance',
-        Command = 'dancewave14',
-        Animation = 'crowd_girl_dance',
-        Dictionary = 'dancing_wave_part_one@anim',
-    },
-    {
-        Label = 'Wave Dance 15 - Uprock Dance',
-        Command = 'dancewave15',
-        Animation = 'uprock_dance_1',
-        Dictionary = 'dancing_wave_part_one@anim',
-        Options = {
-            Flags = {
-                Loop = true,
-            },
-        },
-    },
-}
-
+    }
